@@ -8,12 +8,12 @@
 
 ## side 파일 만드는 방법
 
-* chrome에서 selemium extion을 클릭한다.
+* chrome에서 selemium extension 버튼을 클릭한다.
 * Record a new test in new project를 선택한다.
 * PROJECT NAME에는 대학교명을 입력한다(예 : KC대학교)
 * BASE URL에는 사이트 주소를 입력한다(예 : http://www.kcu.ac.kr)
-  * https:// 를 붙이지 않고 http://를 붙인다.
-  * 마지막 슬래시는 붙이지 않는다.
+  * URL에 "https://" 를 붙이지 않고 "http://" 를 붙인다.
+  * 도메인 마지막에는 슬래시를 붙이지 않는다.
 * Start Recording을 누른다.
 * 사이트 메인 페이지에서 "로그인", "포털", "웹메일", "인트라넷" 등을 찾아 클릭한다.
 * ID에는 "testtest"를 입력한다. 간혹 메일 형식으로 입력을 해야 하는 경우에는 "test@test.net"을 입력한다.
