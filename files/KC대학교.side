@@ -5,19 +5,12 @@
   "url": "http://kcu.ac.kr",
   "tests": [{
     "id": "3f9f9504-82a9-49ba-91b0-afb30a75bfc8",
-    "name": "KC대학교",
+    "name": "전자출결",
     "commands": [{
       "id": "bf0726fb-5f66-4dc7-abd6-01d6fb3e1446",
       "comment": "",
       "command": "open",
       "target": "/kcua/mainService",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "812268b9-b37d-4507-9669-5f62e9d4a714",
-      "comment": "",
-      "command": "setWindowSize",
-      "target": "1191x1053",
       "targets": [],
       "value": ""
     }, {
@@ -106,6 +99,115 @@
       "comment": "",
       "command": "selectWindow",
       "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8cf127f5-83c6-41c9-aa4a-ed495e67a5b2",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "14a6876e-4e36-483c-9215-9d4ccb36717f",
+    "name": "학사인트라넷",
+    "commands": [{
+      "id": "667f6919-8275-4ac2-93eb-1567a16e7b7a",
+      "comment": "",
+      "command": "open",
+      "target": "/kcua/mainService",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d5747576-6c11-4049-b4a0-2007f89837bc",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=학사인트라넷",
+      "targets": [
+        ["linkText=학사인트라넷", "linkText"],
+        ["css=.blank3 > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'학사인트라넷')])[3]", "xpath:link"],
+        ["xpath=//article[@id='bottomContent']/article[3]/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://intra.kcu.ac.kr/kcu/user/login.do')])[4]", "xpath:href"],
+        ["xpath=//article[3]/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win5063",
+      "windowTimeout": 2000
+    }, {
+      "id": "d980a939-9a76-4463-ae8b-0ec1e0e51505",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "63720d8f-387b-469a-aab0-b875b4e1af56",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win5063}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c72aa20a-2f0c-48ca-b2db-6699f3634ebc",
+      "comment": "",
+      "command": "type",
+      "target": "name=id",
+      "targets": [
+        ["name=id", "name"],
+        ["css=div:nth-child(1) > .inpTxt", "css:finder"],
+        ["xpath=//input[@name='id']", "xpath:attributes"],
+        ["xpath=//form[@id='myForm']/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "TESTTEST"
+    }, {
+      "id": "bcc9f5b9-9e64-4a0f-8359-92b0b944a1c5",
+      "comment": "",
+      "command": "type",
+      "target": "name=pass_id",
+      "targets": [
+        ["name=pass_id", "name"],
+        ["css=div:nth-child(2) > .inpTxt", "css:finder"],
+        ["xpath=//input[@name='pass_id']", "xpath:attributes"],
+        ["xpath=//form[@id='myForm']/div/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "11111111"
+    }, {
+      "id": "17a5d55d-a151-4fe1-9fdb-c92e2e93f59f",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnOk",
+      "targets": [
+        ["id=btnOk", "id"],
+        ["css=#btnOk", "css:finder"],
+        ["xpath=//img[@id='btnOk']", "xpath:attributes"],
+        ["xpath=//form[@id='myForm']/div/div[3]/img", "xpath:idRelative"],
+        ["xpath=//div[3]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f30c5b4e-9c0a-4b7c-a500-5801dc0d05e9",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f13f07e5-deba-4642-a03a-49b5cc9f045e",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "93beaeb7-1eed-4797-ab27-73b2919ad303",
+      "comment": "",
+      "command": "close",
+      "target": "",
       "targets": [],
       "value": ""
     }]
