@@ -4,14 +4,14 @@
 
 ## 조사 대상 리스트
 
-* https://search.naver.com/search.naver?&query=%EC%A0%84%EA%B5%AD+%EB%8C%80%ED%95%99%EA%B5%90 사이트에 있는 63개 대학교에 대해 selemiun side 파일을 만든다.
+* https://search.naver.com/search.naver?&query=%EC%A0%84%EA%B5%AD+%EB%8C%80%ED%95%99%EA%B5%90 사이트에 있는 63개 대학교에 대해 selenium side 파일을 만든다.
 
 ## side 파일 만드는 방법
 
 * chrome에서 selemium extion을 클릭한다.
 * Record a new test in new project를 선택한다.
 * PROJECT NAME에는 대학교명을 입력한다(예 : KC대학교)
-* BASE URL에는 사이트 주소를 입력한다(예 : http://www.http://www.kcu.ac.kr)
+* BASE URL에는 사이트 주소를 입력한다(예 : http://www.kcu.ac.kr)
   * https:// 를 붙이지 않고 http://를 붙인다.
   * 마지막 슬래시는 붙이지 않는다.
 * Start Recording을 누른다.
