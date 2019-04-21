@@ -1,6 +1,6 @@
-## selemiun 설치
+## selenium 설치
 
-* 구글 크롬에서 selemiun extension을 설치한다. https://chrome.google.com/webstore/detail/selenium-ide/mooikfkahbdckldjjndioackbalphokd?hl=en
+* 구글 크롬에서 selenium extension을 설치한다. https://chrome.google.com/webstore/detail/selenium-ide/mooikfkahbdckldjjndioackbalphokd?hl=en
 
 ## 조사 대상 리스트
 
@@ -8,7 +8,7 @@
 
 ## side 파일 만드는 방법
 
-* chrome에서 selemium extension 버튼을 클릭한다.
+* chrome에서 selenium extension 버튼을 클릭한다.
 * Record a new test in new project를 선택한다.
 * PROJECT NAME에는 대학교명을 입력한다(예 : KC대학교)
 * BASE URL에는 사이트 주소를 입력한다(예 : http://www.kcu.ac.kr)
