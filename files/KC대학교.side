@@ -1,0 +1,123 @@
+{
+  "id": "d4ad7faa-4d9c-42fa-a8bd-09c09da628b8",
+  "version": "2.0",
+  "name": "KC대학교",
+  "url": "http://kcu.ac.kr",
+  "tests": [{
+    "id": "3f9f9504-82a9-49ba-91b0-afb30a75bfc8",
+    "name": "KC대학교",
+    "commands": [{
+      "id": "bf0726fb-5f66-4dc7-abd6-01d6fb3e1446",
+      "comment": "",
+      "command": "open",
+      "target": "/kcua/mainService",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "812268b9-b37d-4507-9669-5f62e9d4a714",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1191x1053",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a891e7c7-1668-4b5f-a0c9-54665aa82f93",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=전자출결",
+      "targets": [
+        ["linkText=전자출결", "linkText"],
+        ["css=.blank5 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'전자출결')]", "xpath:link"],
+        ["xpath=//article[@id='bottomContent']/article[3]/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://att.kcu.ac.kr/']", "xpath:href"],
+        ["xpath=//article[3]/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'전자출결')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win4781",
+      "windowTimeout": 2000
+    }, {
+      "id": "1a7d8434-bc2e-4d0a-a9b4-c087c59b4dad",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "85332b4c-057c-4c5f-a7be-3bbc06938b4e",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win4781}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1bb50f66-bbbc-43c5-a03a-d9d92666efda",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='loginform']/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": "testtest"
+    }, {
+      "id": "b5184d01-bf28-4d18-b0a4-3900f6cde961",
+      "comment": "",
+      "command": "type",
+      "target": "id=passwd",
+      "targets": [
+        ["id=passwd", "id"],
+        ["name=passwd", "name"],
+        ["css=#passwd", "css:finder"],
+        ["xpath=//input[@id='passwd']", "xpath:attributes"],
+        ["xpath=//form[@id='loginform']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "11111111"
+    }, {
+      "id": "5861ed91-7dff-40a2-a115-e7c55741db92",
+      "comment": "",
+      "command": "click",
+      "target": "name=Submit",
+      "targets": [
+        ["name=Submit", "name"],
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@name='Submit']", "xpath:attributes"],
+        ["xpath=//form[@id='loginform']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "968a0a59-f537-4687-bcb4-ec33d530c416",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bc18b70a-2edf-4d81-82e4-6aca0f4d4145",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "93ffeba1-ae18-49f2-b8c1-a374f72ac804",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["http://kcu.ac.kr/"],
+  "plugins": []
+}
