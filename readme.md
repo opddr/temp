@@ -1,6 +1,6 @@
 ## selemiun 설치
 
-* 구글 크롬에서 selemiun extion을 설치한다. https://chrome.google.com/webstore/detail/selenium-ide/mooikfkahbdckldjjndioackbalphokd?hl=en
+* 구글 크롬에서 selemiun extension을 설치한다. https://chrome.google.com/webstore/detail/selenium-ide/mooikfkahbdckldjjndioackbalphokd?hl=en
 
 ## 조사 대상 리스트
 
