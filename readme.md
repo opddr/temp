@@ -21,6 +21,6 @@
 * 로그인 버튼을 누른다(당연히 로그인은 안됨).
 * 화면을 닫는다.
 * selenium에서 Stop Recording을 누른다.
-* 파일을 저장한다(예 : KC대학교.side)
+* 파일을 저장한다(예 : www.kcu.ac.kr.side)
 * github에 올린다.
 
