@@ -1,0 +1,239 @@
+{
+  "id": "dddbda5c-1e7a-4ab0-835c-3abd5180823f",
+  "version": "2.0",
+  "name": "가톨릭대학교-성신교정",
+  "url": "http://songsin.catholic.ac.kr",
+  "tests": [{
+    "id": "28faf04d-a590-4349-93f8-a080190a77cf",
+    "name": "로그인",
+    "commands": [{
+      "id": "c3f383f4-e087-473f-bd74-3c9c723d795b",
+      "comment": "",
+      "command": "open",
+      "target": "/site/songsin/main.do",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "53d4bdd3-bf51-4579-957f-065e7f121d84",
+      "comment": "",
+      "command": "click",
+      "target": "css=.menu > li:nth-child(2) img",
+      "targets": [
+        ["css=.menu > li:nth-child(2) img", "css:finder"],
+        ["xpath=//img[@alt='로그인']", "xpath:img"],
+        ["xpath=//div[@id='gnb_bg']/ul/li[2]/a/img", "xpath:idRelative"],
+        ["xpath=//li[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8de06de9-da37-4d90-96e9-921d77595494",
+      "comment": "",
+      "command": "click",
+      "target": "id=uid",
+      "targets": [
+        ["id=uid", "id"],
+        ["name=UserID", "name"],
+        ["css=#uid", "css:finder"],
+        ["xpath=//input[@id='uid']", "xpath:attributes"],
+        ["xpath=//div[@id='login_box']/form/fieldset/p/input", "xpath:idRelative"],
+        ["xpath=//p/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2347f990-2ab5-4a60-8e4a-e60bbad3b82b",
+      "comment": "",
+      "command": "type",
+      "target": "id=uid",
+      "targets": [
+        ["id=uid", "id"],
+        ["name=UserID", "name"],
+        ["css=#uid", "css:finder"],
+        ["xpath=//input[@id='uid']", "xpath:attributes"],
+        ["xpath=//div[@id='login_box']/form/fieldset/p/input", "xpath:idRelative"],
+        ["xpath=//p/input", "xpath:position"]
+      ],
+      "value": "testtest"
+    }, {
+      "id": "7f2ded0a-dd33-461f-b975-579ffdfbf62c",
+      "comment": "",
+      "command": "click",
+      "target": "id=upw",
+      "targets": [
+        ["id=upw", "id"],
+        ["name=UserPW", "name"],
+        ["css=#upw", "css:finder"],
+        ["xpath=//input[@id='upw']", "xpath:attributes"],
+        ["xpath=//div[@id='login_box']/form/fieldset/p[2]/input", "xpath:idRelative"],
+        ["xpath=//p[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "36afeeb4-e2f8-44fc-aa8c-bc917b8ccba3",
+      "comment": "",
+      "command": "type",
+      "target": "id=upw",
+      "targets": [
+        ["id=upw", "id"],
+        ["name=UserPW", "name"],
+        ["css=#upw", "css:finder"],
+        ["xpath=//input[@id='upw']", "xpath:attributes"],
+        ["xpath=//div[@id='login_box']/form/fieldset/p[2]/input", "xpath:idRelative"],
+        ["xpath=//p[2]/input", "xpath:position"]
+      ],
+      "value": "11111111"
+    }, {
+      "id": "ae46c54f-a0ca-4f76-a7ad-2e032237100b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(1)",
+      "targets": [
+        ["css=.btn:nth-child(1)", "css:finder"],
+        ["xpath=(//input[@type='image'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='login_box']/form/fieldset/a/input", "xpath:idRelative"],
+        ["xpath=//a/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7f59bdaf-4e3f-4927-b083-d1bc730a80d4",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "091e3cd5-43c3-40cc-8d78-2a863aec5505",
+    "name": "웸메일",
+    "commands": [{
+      "id": "f41bbb5d-bf36-47e9-b23d-9f3ec26fd413",
+      "comment": "",
+      "command": "open",
+      "target": "/site/songsin/main.do",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3e626db1-ae64-4dfc-9ac3-7d7774234cab",
+      "comment": "",
+      "command": "click",
+      "target": "css=.menu > li:nth-child(3) img",
+      "targets": [
+        ["css=.menu > li:nth-child(3) img", "css:finder"],
+        ["xpath=//img[@alt='웹메일']", "xpath:img"],
+        ["xpath=//div[@id='gnb_bg']/ul/li[3]/a/img", "xpath:idRelative"],
+        ["xpath=//li[3]/a/img", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win7375",
+      "windowTimeout": 2000
+    }, {
+      "id": "80923f0a-05cf-44eb-8d66-591ca9c935d1",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "71b4877f-9dd2-4287-a8da-468ea3cbfc7c",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win7375}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e51e3745-fe02-49d9-9c23-15e7dc73f48e",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "7236617d-049f-4efd-b850-6dd2ee1b594c",
+      "comment": "",
+      "command": "type",
+      "target": "id=id",
+      "targets": [
+        ["id=id", "id"],
+        ["name=id", "name"],
+        ["css=#id", "css:finder"],
+        ["xpath=//input[@id='id']", "xpath:attributes"],
+        ["xpath=//div[@id='normalLogin']/div[2]/table/tbody/tr/td/input", "xpath:idRelative"],
+        ["xpath=//td/input", "xpath:position"]
+      ],
+      "value": "testtest"
+    }, {
+      "id": "fb027e3d-deff-4308-b94a-b8cfaf6ff479",
+      "comment": "",
+      "command": "click",
+      "target": "id=pass",
+      "targets": [
+        ["id=pass", "id"],
+        ["name=pass", "name"],
+        ["css=#pass", "css:finder"],
+        ["xpath=//input[@id='pass']", "xpath:attributes"],
+        ["xpath=//div[@id='normalLogin']/div[2]/table/tbody/tr[2]/td/input", "xpath:idRelative"],
+        ["xpath=//tr[2]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d074275-51a3-4908-a7f9-478fe34da930",
+      "comment": "",
+      "command": "type",
+      "target": "id=pass",
+      "targets": [
+        ["id=pass", "id"],
+        ["name=pass", "name"],
+        ["css=#pass", "css:finder"],
+        ["xpath=//input[@id='pass']", "xpath:attributes"],
+        ["xpath=//div[@id='normalLogin']/div[2]/table/tbody/tr[2]/td/input", "xpath:idRelative"],
+        ["xpath=//tr[2]/td/input", "xpath:position"]
+      ],
+      "value": "11111111"
+    }, {
+      "id": "05bf6eaa-3bf2-4613-9d24-66c5dacd6e65",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn_login > span",
+      "targets": [
+        ["css=.btn_login > span", "css:finder"],
+        ["xpath=//div[@id='normalLogin']/div[2]/table/tbody/tr[2]/td[2]/a/span", "xpath:idRelative"],
+        ["xpath=//td[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Sign In')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a6af03cc-27b3-4634-a0bb-dc741fb14ee9",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ecf22bbd-d3d6-4520-a3e9-902d5f70748d",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "49f21282-5cab-40ae-b104-a030b3a6c692",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "01641a38-2a4e-48c3-92b5-4eae11864fe7",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["28faf04d-a590-4349-93f8-a080190a77cf"]
+  }],
+  "urls": ["http://songsin.catholic.ac.kr/"],
+  "plugins": []
+}
