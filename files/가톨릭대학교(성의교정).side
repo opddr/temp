@@ -1,0 +1,344 @@
+{
+  "id": "d5b6e1bd-03b5-4d84-9160-5c42de23bb64",
+  "version": "2.0",
+  "name": "가톨릭대학교-성의교정",
+  "url": "https://songeui.catholic.ac.kr",
+  "tests": [{
+    "id": "9be385e7-eea8-4874-a28a-52f1b4234057",
+    "name": "로그인",
+    "commands": [{
+      "id": "c50fb2d6-a055-4d27-974e-0b0f62380386",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5bc482f6-4c69-4761-8ba7-b10b9f1239ed",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=로그인",
+      "targets": [
+        ["linkText=로그인", "linkText"],
+        ["css=.new_topmenu > span:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'로그인')]", "xpath:link"],
+        ["xpath=//div[@id='new_header']/div/span/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://songeui.catholic.ac.kr/bbs/member/login.jsp')]", "xpath:href"],
+        ["xpath=//span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'로그인')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3e4dd76b-cefd-4ba6-8e3e-da412fec4788",
+      "comment": "",
+      "command": "click",
+      "target": "id=id",
+      "targets": [
+        ["id=id", "id"],
+        ["name=id", "name"],
+        ["css=#id", "css:finder"],
+        ["xpath=//input[@id='id']", "xpath:attributes"],
+        ["xpath=//form[@id='LoginFrm']/div/div/div/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "11d79c16-7ba8-4018-99e1-c8998dc70873",
+      "comment": "",
+      "command": "click",
+      "target": "css=.login_body",
+      "targets": [
+        ["css=.login_body", "css:finder"],
+        ["xpath=//form[@id='LoginFrm']/div/div/div", "xpath:idRelative"],
+        ["xpath=//form/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "58d86978-e950-442e-bedd-cfa9d681caa3",
+      "comment": "",
+      "command": "type",
+      "target": "id=id",
+      "targets": [
+        ["id=id", "id"],
+        ["name=id", "name"],
+        ["css=#id", "css:finder"],
+        ["xpath=//input[@id='id']", "xpath:attributes"],
+        ["xpath=//form[@id='LoginFrm']/div/div/div/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "testtest"
+    }, {
+      "id": "32470ea9-3e46-457e-83b4-b871b63da0ce",
+      "comment": "",
+      "command": "type",
+      "target": "id=pw",
+      "targets": [
+        ["id=pw", "id"],
+        ["name=pw", "name"],
+        ["css=#pw", "css:finder"],
+        ["xpath=//input[@id='pw']", "xpath:attributes"],
+        ["xpath=//form[@id='LoginFrm']/div/div/div/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "11111111"
+    }, {
+      "id": "40ec6fa5-7e02-41e0-819c-0690c8a55011",
+      "comment": "",
+      "command": "click",
+      "target": "css=.login_btn img",
+      "targets": [
+        ["css=.login_btn img", "css:finder"],
+        ["xpath=(//img[@alt='로그인'])[3]", "xpath:img"],
+        ["xpath=//form[@id='LoginFrm']/div/div/div/div[5]/a/img", "xpath:idRelative"],
+        ["xpath=//div[5]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8e7bc650-3119-4660-9232-14ed57404efe",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "14d4e773-6f13-403d-8ad0-a9d8cd74fe6e",
+    "name": "마이페이지",
+    "commands": [{
+      "id": "e65a4ba3-4f49-4124-bc33-87ac87edfc7d",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b1785fc2-d251-44d0-b791-678beb200d4a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=마이페이지",
+      "targets": [
+        ["linkText=마이페이지", "linkText"],
+        ["css=.new_topmenu > span:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'마이페이지')]", "xpath:link"],
+        ["xpath=//a[@onclick='If_MypageGoing();']", "xpath:attributes"],
+        ["xpath=//div[@id='new_header']/div/span[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'javascript:;')]", "xpath:href"],
+        ["xpath=//span[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'마이페이지')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ad2e8e1-35cb-4470-a660-ad352483016b",
+      "comment": "",
+      "command": "click",
+      "target": "id=id",
+      "targets": [
+        ["id=id", "id"],
+        ["name=id", "name"],
+        ["css=#id", "css:finder"],
+        ["xpath=//input[@id='id']", "xpath:attributes"],
+        ["xpath=//form[@id='LoginFrm']/div/div/div/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "40342ad2-795b-485d-92dd-efd673cad1cd",
+      "comment": "",
+      "command": "type",
+      "target": "id=id",
+      "targets": [
+        ["id=id", "id"],
+        ["name=id", "name"],
+        ["css=#id", "css:finder"],
+        ["xpath=//input[@id='id']", "xpath:attributes"],
+        ["xpath=//form[@id='LoginFrm']/div/div/div/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "testtest"
+    }, {
+      "id": "86726036-3caa-48dd-9895-4be6c8a19a0d",
+      "comment": "",
+      "command": "click",
+      "target": "id=pw",
+      "targets": [
+        ["id=pw", "id"],
+        ["name=pw", "name"],
+        ["css=#pw", "css:finder"],
+        ["xpath=//input[@id='pw']", "xpath:attributes"],
+        ["xpath=//form[@id='LoginFrm']/div/div/div/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ad907f9f-d469-434c-ae5b-b22f92d3520a",
+      "comment": "",
+      "command": "type",
+      "target": "id=pw",
+      "targets": [
+        ["id=pw", "id"],
+        ["name=pw", "name"],
+        ["css=#pw", "css:finder"],
+        ["xpath=//input[@id='pw']", "xpath:attributes"],
+        ["xpath=//form[@id='LoginFrm']/div/div/div/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "11111111"
+    }, {
+      "id": "ebdaf5e9-6a19-43ef-9965-6ef243c8aa26",
+      "comment": "",
+      "command": "click",
+      "target": "css=.login_btn img",
+      "targets": [
+        ["css=.login_btn img", "css:finder"],
+        ["xpath=(//img[@alt='로그인'])[3]", "xpath:img"],
+        ["xpath=//form[@id='LoginFrm']/div/div/div/div[5]/a/img", "xpath:idRelative"],
+        ["xpath=//div[5]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9e4c2d56-4d03-486f-8227-e2e93af640ca",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "14aadd58-b816-4eda-8533-020ac9219004",
+    "name": "웹메일",
+    "commands": [{
+      "id": "3e1ddcba-540d-43a8-88b9-47e963515d06",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "289050ca-ccfe-44e5-be8a-4e69dd4d98e9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=웹메일",
+      "targets": [
+        ["linkText=웹메일", "linkText"],
+        ["css=.new_topmenu > span:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'웹메일')]", "xpath:link"],
+        ["xpath=//div[@id='new_header']/div/span[4]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://mail.catholic.ac.kr']", "xpath:href"],
+        ["xpath=//span[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'웹메일')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win9766",
+      "windowTimeout": 2000
+    }, {
+      "id": "0135a08e-9969-4c58-b3eb-c6b0c1e7bc7b",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b9a6779b-5fd1-4994-a2dd-9b00b0e1ed90",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win9766}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "49f5184a-f919-46a6-8692-7ee8e0cfd19d",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "d98ef452-469b-4694-b3de-ddc7653c3c8b",
+      "comment": "",
+      "command": "type",
+      "target": "id=id",
+      "targets": [
+        ["id=id", "id"],
+        ["name=id", "name"],
+        ["css=#id", "css:finder"],
+        ["xpath=//input[@id='id']", "xpath:attributes"],
+        ["xpath=//div[@id='normalLogin']/div[2]/table/tbody/tr/td/input", "xpath:idRelative"],
+        ["xpath=//td/input", "xpath:position"]
+      ],
+      "value": "testtest"
+    }, {
+      "id": "558e3c6c-077d-40e4-8dad-df95dfd6f0ab",
+      "comment": "",
+      "command": "click",
+      "target": "id=pass",
+      "targets": [
+        ["id=pass", "id"],
+        ["name=pass", "name"],
+        ["css=#pass", "css:finder"],
+        ["xpath=//input[@id='pass']", "xpath:attributes"],
+        ["xpath=//div[@id='normalLogin']/div[2]/table/tbody/tr[2]/td/input", "xpath:idRelative"],
+        ["xpath=//tr[2]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "51c1d40d-ac52-4778-956f-83843c30f858",
+      "comment": "",
+      "command": "type",
+      "target": "id=pass",
+      "targets": [
+        ["id=pass", "id"],
+        ["name=pass", "name"],
+        ["css=#pass", "css:finder"],
+        ["xpath=//input[@id='pass']", "xpath:attributes"],
+        ["xpath=//div[@id='normalLogin']/div[2]/table/tbody/tr[2]/td/input", "xpath:idRelative"],
+        ["xpath=//tr[2]/td/input", "xpath:position"]
+      ],
+      "value": "11111111"
+    }, {
+      "id": "d08d4c80-1fa9-43f5-b658-53368255026f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn_login > span",
+      "targets": [
+        ["css=.btn_login > span", "css:finder"],
+        ["xpath=//div[@id='normalLogin']/div[2]/table/tbody/tr[2]/td[2]/a/span", "xpath:idRelative"],
+        ["xpath=//td[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Sign In')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "50ee9673-57e8-4b6b-af56-58c9e22a2b6b",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5b41980b-d890-46ff-b0af-a4a761201f0a",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b06ecf45-52c8-4958-a1e5-04df833aa123",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "322b55ae-7ed9-4b35-a2dc-253e8be129b1",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["9be385e7-eea8-4874-a28a-52f1b4234057"]
+  }],
+  "urls": ["https://songeui.catholic.ac.kr/"],
+  "plugins": []
+}
