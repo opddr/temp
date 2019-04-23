@@ -1,6 +1,6 @@
 from selenium import webdriver
 
-driver = webdriver.Chrome('C:\\Users\\sungsoo.s.kim\\Documents\\#RPA\\web-driver\\chromedriver.exe')
+driver = webdriver.Chrome('chromedriver.exe')
 
 driver.implicitly_wait(3)
 
