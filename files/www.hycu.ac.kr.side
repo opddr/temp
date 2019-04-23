@@ -1,0 +1,200 @@
+{
+  "id": "520b5298-9cc3-4de1-b897-c7fa9255f1de",
+  "version": "2.0",
+  "name": "www.hycu.ac.kr",
+  "url": "http://www.hycu.ac.kr",
+  "tests": [{
+    "id": "8c24abb7-eee2-4266-9383-619f50886ee6",
+    "name": "www.hycu.ac.kr",
+    "commands": [{
+      "id": "9615e573-c68d-4521-bd24-5274469a963f",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e7abd149-6dfa-4e51-936c-c7e9a0aa7f3b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fabe7206-cc52-4c6e-9009-645b72a7d50e",
+      "comment": "",
+      "command": "click",
+      "target": "id=UserID_Main",
+      "targets": [
+        ["id=UserID_Main", "id"],
+        ["name=UserID_Main", "name"],
+        ["css=#UserID_Main", "css:finder"],
+        ["xpath=//input[@id='UserID_Main']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div/div/div[4]/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "443f53be-4a8e-4298-9c70-34714a8395aa",
+      "comment": "",
+      "command": "type",
+      "target": "id=UserID_Main",
+      "targets": [
+        ["id=UserID_Main", "id"],
+        ["name=UserID_Main", "name"],
+        ["css=#UserID_Main", "css:finder"],
+        ["xpath=//input[@id='UserID_Main']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div/div/div[4]/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "testtest"
+    }, {
+      "id": "c683f9c1-f91e-49b2-ae97-126a3cda5ad3",
+      "comment": "",
+      "command": "click",
+      "target": "id=UserPass_Main",
+      "targets": [
+        ["id=UserPass_Main", "id"],
+        ["name=UserPass_Main", "name"],
+        ["css=#UserPass_Main", "css:finder"],
+        ["xpath=//input[@id='UserPass_Main']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div/div/div[4]/div/div[2]/div/input[2]", "xpath:idRelative"],
+        ["xpath=//div/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2a5e7ef8-cbf9-4d0d-aa76-73bb1d702a93",
+      "comment": "",
+      "command": "type",
+      "target": "id=UserPass_Main",
+      "targets": [
+        ["id=UserPass_Main", "id"],
+        ["name=UserPass_Main", "name"],
+        ["css=#UserPass_Main", "css:finder"],
+        ["xpath=//input[@id='UserPass_Main']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div/div/div[4]/div/div[2]/div/input[2]", "xpath:idRelative"],
+        ["xpath=//div/input[2]", "xpath:position"]
+      ],
+      "value": "11111111"
+    }, {
+      "id": "fd12f0f0-f813-4b2e-b33d-f8c726088a5e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.login_btn",
+      "targets": [
+        ["css=.login_btn", "css:finder"],
+        ["xpath=//a[@onclick='check_form_main();']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div/div/div[4]/div/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[32]", "xpath:href"],
+        ["xpath=//div[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bf3e5386-ef6d-4140-ae58-69a717906bd6",
+      "comment": "",
+      "command": "click",
+      "target": "id=id",
+      "targets": [
+        ["id=id", "id"],
+        ["name=UserID", "name"],
+        ["css=#id", "css:finder"],
+        ["xpath=//input[@id='id']", "xpath:attributes"],
+        ["xpath=//form[@id='FormLogin']/fieldset/div/div[2]/div/div[4]/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e4348f75-16ec-4461-9e86-ef0f81dd4bd0",
+      "comment": "",
+      "command": "type",
+      "target": "id=id",
+      "targets": [
+        ["id=id", "id"],
+        ["name=UserID", "name"],
+        ["css=#id", "css:finder"],
+        ["xpath=//input[@id='id']", "xpath:attributes"],
+        ["xpath=//form[@id='FormLogin']/fieldset/div/div[2]/div/div[4]/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "testtest"
+    }, {
+      "id": "1514bad5-9695-41f4-b1cd-56d0553abc60",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=UserPass", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='FormLogin']/fieldset/div/div[2]/div/div[4]/div/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "38a3aa82-b0ed-4262-88d3-c691438c1cdb",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=UserPass", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='FormLogin']/fieldset/div/div[2]/div/div[4]/div/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "11111111"
+    }, {
+      "id": "7a6a229a-edbf-4682-baba-51a71fdec31f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn_confirm > span",
+      "targets": [
+        ["css=.btn_confirm > span", "css:finder"],
+        ["xpath=//form[@id='FormLogin']/fieldset/div/div[2]/div/div[4]/div/div/div/a/span", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "336f725c-904d-4b96-8d6e-54ce396069e5",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.btn_confirm > span",
+      "targets": [
+        ["css=.btn_confirm > span", "css:finder"],
+        ["xpath=//form[@id='FormLogin']/fieldset/div/div[2]/div/div[4]/div/div/div/a/span", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2dafea67-2679-413b-a5e8-f2f97f3caeb5",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.btn_confirm > span",
+      "targets": [
+        ["css=.btn_confirm > span", "css:finder"],
+        ["xpath=//form[@id='FormLogin']/fieldset/div/div[2]/div/div[4]/div/div/div/a/span", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4052fb91-f488-4771-a682-fc2794dcbe4a",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "62d1fe37-1f6a-438a-b931-0c6f032bf189",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["8c24abb7-eee2-4266-9383-619f50886ee6"]
+  }],
+  "urls": ["http://www.hycu.ac.kr/"],
+  "plugins": []
+}

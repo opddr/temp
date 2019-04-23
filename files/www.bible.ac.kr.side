@@ -1,0 +1,221 @@
+{
+  "id": "a38c6ee3-355d-4eb1-a0aa-8a6bac5dacb7",
+  "version": "2.0",
+  "name": "www.bible.ac.kr",
+  "url": "http://www.bible.ac.kr",
+  "tests": [{
+    "id": "1b658c5b-b1e0-4e19-80a7-1eccaed1fa4d",
+    "name": "www.bible.ac.kr",
+    "commands": [{
+      "id": "ce853e12-0ef7-476f-affa-15decb873cd8",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7f899517-da8e-4b73-aafd-a32f6d396db4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7798190b-0842-4f2a-8854-5770596385ef",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=학사인트라넷 로그인",
+      "targets": [
+        ["linkText=학사인트라넷 로그인", "linkText"],
+        ["css=.school-nav__login:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'학사인트라넷 로그인')]", "xpath:link"],
+        ["xpath=//span[@id='top_app2']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.bible.ac.kr/login.aspx')]", "xpath:href"],
+        ["xpath=//span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'학사인트라넷 로그인')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "27f97b98-36d4-412a-a417-462fec22063c",
+      "comment": "",
+      "command": "click",
+      "target": "id=userid",
+      "targets": [
+        ["id=userid", "id"],
+        ["name=userid", "name"],
+        ["css=#userid", "css:finder"],
+        ["xpath=//input[@id='userid']", "xpath:attributes"],
+        ["xpath=//form[@id='form1']/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e8b681d4-ec6e-402f-89ab-728461400e34",
+      "comment": "",
+      "command": "type",
+      "target": "id=userid",
+      "targets": [
+        ["id=userid", "id"],
+        ["name=userid", "name"],
+        ["css=#userid", "css:finder"],
+        ["xpath=//input[@id='userid']", "xpath:attributes"],
+        ["xpath=//form[@id='form1']/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "testtest"
+    }, {
+      "id": "d66e6cf2-45f7-4705-9222-6e6aecde308d",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='form1']/div[7]/input", "xpath:idRelative"],
+        ["xpath=//div[7]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "61f868a0-88e6-48ca-b90b-7aadf5cff66e",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='form1']/div[7]/input", "xpath:idRelative"],
+        ["xpath=//div[7]/input", "xpath:position"]
+      ],
+      "value": "11111111"
+    }, {
+      "id": "8f9898c9-3b48-4612-a144-14d44b24ee8c",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnSave",
+      "targets": [
+        ["id=btnSave", "id"],
+        ["name=btnSave", "name"],
+        ["css=#btnSave", "css:finder"],
+        ["xpath=//input[@id='btnSave']", "xpath:attributes"],
+        ["xpath=//form[@id='form1']/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d0b5e255-9d75-4ef3-bdf8-621122038f9f",
+      "comment": "",
+      "command": "click",
+      "target": "id=form1",
+      "targets": [
+        ["id=form1", "id"],
+        ["name=form1", "name"],
+        ["css=#form1", "css:finder"],
+        ["xpath=//form[@id='form1']", "xpath:attributes"],
+        ["xpath=//div[@id='sub_content_all']/div[2]/form", "xpath:idRelative"],
+        ["xpath=//form", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dd5027d8-a8ef-4f81-af4a-967288892b5f",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='form1']/div[7]/input", "xpath:idRelative"],
+        ["xpath=//div[7]/input", "xpath:position"]
+      ],
+      "value": "11111111"
+    }, {
+      "id": "1e5a1bbc-d286-491f-901f-237611be249b",
+      "comment": "",
+      "command": "click",
+      "target": "id=Radio2",
+      "targets": [
+        ["id=Radio2", "id"],
+        ["css=#Radio2", "css:finder"],
+        ["xpath=//input[@id='Radio2']", "xpath:attributes"],
+        ["xpath=//form[@id='form1']/div[9]/span[2]/input", "xpath:idRelative"],
+        ["xpath=//span[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "55f5cb7a-aefd-4f78-ba4c-8c4e83b3e5ae",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnSave",
+      "targets": [
+        ["id=btnSave", "id"],
+        ["name=btnSave", "name"],
+        ["css=#btnSave", "css:finder"],
+        ["xpath=//input[@id='btnSave']", "xpath:attributes"],
+        ["xpath=//form[@id='form1']/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5187f056-26bc-4de6-a21b-af71728ab4c7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=WEBMAIL",
+      "targets": [
+        ["linkText=WEBMAIL", "linkText"],
+        ["css=.school-nav__login:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'WEBMAIL')]", "xpath:link"],
+        ["xpath=//div[@id='top_section']/div/div/div/div/div/a[2]", "xpath:idRelative"],
+        ["xpath=//a[@href='http://mail.bible.ac.kr']", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'WEBMAIL')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win1863",
+      "windowTimeout": 2000
+    }, {
+      "id": "5c201837-f100-43de-bbda-1a0fea26b0b3",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "406ca30c-7e1c-4d0f-9f3f-b240f555775d",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win1863}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "13334637-c8af-49bb-a8a2-adb298605e04",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9fc1b473-be22-4b3b-91ea-b56408b691d3",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "6fc3310b-510f-4f6a-9b0c-d545768f1c07",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["1b658c5b-b1e0-4e19-80a7-1eccaed1fa4d"]
+  }],
+  "urls": ["http://www.bible.ac.kr/"],
+  "plugins": []
+}
