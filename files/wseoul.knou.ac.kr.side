@@ -1,0 +1,144 @@
+{
+  "id": "948c3731-a58d-4af0-b72f-e5a2b92d8ad6",
+  "version": "2.0",
+  "name": "wseoul.knou.ac.kr",
+  "url": "https://wseoul.knou.ac.kr",
+  "tests": [{
+    "id": "2dd0fb26-ae73-4217-861a-556112db5491",
+    "name": "wseoul.knou.ac.kr",
+    "commands": [{
+      "id": "dae92bc5-e917-4025-b509-36d5a3deeeca",
+      "comment": "",
+      "command": "open",
+      "target": "/EHPMain.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6f4d6e30-95e8-42b8-b6db-41eadc7e1c43",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "920x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "efaa9bdc-dfbc-484c-b2ac-7522503b0e71",
+      "comment": "",
+      "command": "click",
+      "target": "css=.top_util li:nth-child(2) img",
+      "targets": [
+        ["css=.top_util li:nth-child(2) img", "css:finder"],
+        ["xpath=//img[@alt='로그인']", "xpath:img"],
+        ["xpath=//div[@id='header']/div/ul/li[2]/a/img", "xpath:idRelative"],
+        ["xpath=//li[2]/a/img", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win2008",
+      "windowTimeout": 2000
+    }, {
+      "id": "60dfd7e0-5a86-4dda-ab70-064b60396652",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4108980b-76a2-49b4-8f4d-dc572da44689",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win2008}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eb9dc693-6fe9-4e2f-8067-45562e89421b",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='LoginForm']/div/fieldset/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": "testtest"
+    }, {
+      "id": "16f07e55-7dc5-4582-9c90-054597da4f6d",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='LoginForm']/div/fieldset/span/input[2]", "xpath:idRelative"],
+        ["xpath=//span/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "84d0e043-33d5-49f1-bff4-8c945ffd6aed",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='LoginForm']/div/fieldset/span/input[2]", "xpath:idRelative"],
+        ["xpath=//span/input[2]", "xpath:position"]
+      ],
+      "value": "11111111"
+    }, {
+      "id": "1f7536a9-d5fb-4277-af6a-f9b652211b3e",
+      "comment": "",
+      "command": "click",
+      "target": "id=btn_login",
+      "targets": [
+        ["id=btn_login", "id"],
+        ["css=#btn_login", "css:finder"],
+        ["xpath=//input[@id='btn_login']", "xpath:attributes"],
+        ["xpath=//form[@id='LoginForm']/div/fieldset/span[2]/input", "xpath:idRelative"],
+        ["xpath=//span[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fed7a263-00e1-4e67-8c55-623adc082b45",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ui-button-text",
+      "targets": [
+        ["css=.ui-button-text", "css:finder"],
+        ["xpath=//button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'확인')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fb994885-4b7c-4c01-8529-171a8e50abf8",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "da85f5ff-b04b-4bcb-bec6-15e1d9b428ad",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "7fe88d3d-05f4-406c-bf00-82070ea9649b",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://wseoul.knou.ac.kr/"],
+  "plugins": []
+}
