@@ -1,0 +1,460 @@
+{
+  "id": "d8033ca5-2f98-41af-8b2d-44aad3b954f5",
+  "version": "2.0",
+  "name": "dkwu",
+  "url": "https://www.dongduk.ac.kr",
+  "tests": [{
+    "id": "0c87d4cd-9243-44eb-8b73-cc11f07a18ed",
+    "name": "Untitled",
+    "commands": [{
+      "id": "6f90f271-6da9-45c2-869d-903347b8e330",
+      "comment": "",
+      "command": "open",
+      "target": "/index.do",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fef2a86d-7fca-461e-9744-8a6da7a78f14",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "168208d4-e88c-4e07-b2e2-1b774d0bf264",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "e3d64796-790a-453d-82e7-0f36b0c88218",
+      "comment": "",
+      "command": "click",
+      "target": "css=.seq-02 img",
+      "targets": [
+        ["css=.seq-02 img", "css:finder"],
+        ["xpath=//img[@alt='LOGIN']", "xpath:img"],
+        ["xpath=//li[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "28194243-ea24-41b4-9863-e24edbf9c646",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "a2e14488-50f3-4f0d-90f6-6a8a492d6bbc",
+      "comment": "",
+      "command": "click",
+      "target": "id=str_user",
+      "targets": [
+        ["id=str_user", "id"],
+        ["css=#str_user", "css:finder"],
+        ["xpath=//input[@id='str_user']", "xpath:attributes"],
+        ["xpath=//div[@id='mid_container']/div[2]/div/div/div/div[2]/div[2]/div/ul/li[2]/p/input", "xpath:idRelative"],
+        ["xpath=//p/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a992a18c-67bb-4161-a2d6-bd0f90205a4e",
+      "comment": "",
+      "command": "type",
+      "target": "id=str_user",
+      "targets": [
+        ["id=str_user", "id"],
+        ["css=#str_user", "css:finder"],
+        ["xpath=//input[@id='str_user']", "xpath:attributes"],
+        ["xpath=//div[@id='mid_container']/div[2]/div/div/div/div[2]/div[2]/div/ul/li[2]/p/input", "xpath:idRelative"],
+        ["xpath=//p/input", "xpath:position"]
+      ],
+      "value": "testtest"
+    }, {
+      "id": "02de1a59-45e1-4d6b-ab46-2a9b5f227b56",
+      "comment": "",
+      "command": "type",
+      "target": "id=str_password",
+      "targets": [
+        ["id=str_password", "id"],
+        ["css=#str_password", "css:finder"],
+        ["xpath=//input[@id='str_password']", "xpath:attributes"],
+        ["xpath=//div[@id='mid_container']/div[2]/div/div/div/div[2]/div[2]/div/ul/li[2]/p[2]/input", "xpath:idRelative"],
+        ["xpath=//p[2]/input", "xpath:position"]
+      ],
+      "value": "11111111"
+    }, {
+      "id": "4299cf17-217c-4cbf-9b8b-82e73d54503e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.unit > a > img",
+      "targets": [
+        ["css=.unit > a > img", "css:finder"],
+        ["xpath=//img[@alt='로그인']", "xpath:img"],
+        ["xpath=//div[@id='mid_container']/div[2]/div/div/div/div[2]/div[2]/div/ul/li[3]/a/img", "xpath:idRelative"],
+        ["xpath=//li[3]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e9b9b5cf-b702-4619-90e9-2cfaac3dd835",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=1",
+      "targets": [
+        ["index=1"]
+      ],
+      "value": ""
+    }, {
+      "id": "c465fac6-a0ce-4f73-a98f-10d3818a1e2e",
+      "comment": "",
+      "command": "click",
+      "target": "id=ssousername1",
+      "targets": [
+        ["id=ssousername1", "id"],
+        ["name=ssousername1", "name"],
+        ["css=#ssousername1", "css:finder"],
+        ["xpath=//input[@id='ssousername1']", "xpath:attributes"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5e58ff86-5d13-40ad-8820-ef0c43872f0f",
+      "comment": "",
+      "command": "type",
+      "target": "id=ssousername1",
+      "targets": [
+        ["id=ssousername1", "id"],
+        ["name=ssousername1", "name"],
+        ["css=#ssousername1", "css:finder"],
+        ["xpath=//input[@id='ssousername1']", "xpath:attributes"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": "testtest"
+    }, {
+      "id": "5b51c9dc-cf40-4cd7-8b35-286c9b66b022",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//tr[2]/td[2]/input", "xpath:position"]
+      ],
+      "value": "11111111"
+    }, {
+      "id": "567520b0-04fb-4e9a-937f-c2048a67a8c6",
+      "comment": "",
+      "command": "click",
+      "target": "name=login",
+      "targets": [
+        ["name=login", "name"],
+        ["css=#logintab_1 img", "css:finder"],
+        ["xpath=//img[@name='login']", "xpath:attributes"],
+        ["xpath=//td[@id='logintab_1']/a/img", "xpath:idRelative"],
+        ["xpath=//a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "49fb0f5c-acae-4cf1-a1a4-2d29d0a5fa59",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "e28f73ec-a61e-4a57-9eb4-f4b7f494590b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=도서관",
+      "targets": [
+        ["linkText=도서관", "linkText"],
+        ["css=.link0 > ul:nth-child(3) > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'도서관')]", "xpath:link"],
+        ["xpath=//div[@id='body']/div[5]/div/ul/li/ul[2]/li/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://library.dongduk.ac.kr/index.ax']", "xpath:href"],
+        ["xpath=//ul[2]/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'도서관')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win2965",
+      "windowTimeout": 2000
+    }, {
+      "id": "a347ef83-e9e3-4e62-93ff-c523afa71a05",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "685edb9c-3128-44fb-996b-5eb06e8f8e1c",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win2965}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0b3f96b6-d76b-4204-8448-030a024a8544",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cf4b4a07-f80c-4dcb-abef-80454e020d4f",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ba899f26-ddf6-47f6-b1cc-a9c50bd526b8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=OCU",
+      "targets": [
+        ["linkText=OCU", "linkText"],
+        ["css=.link0 > ul:nth-child(2) > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'OCU')]", "xpath:link"],
+        ["xpath=//div[@id='body']/div[5]/div/ul/li/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://cons.ocu.ac.kr/']", "xpath:href"],
+        ["xpath=//div[5]/div/ul/li/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'OCU')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win2899",
+      "windowTimeout": 2000
+    }, {
+      "id": "05555e5b-4a3e-4e91-b250-5c5331ca9123",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win2899}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5bd80ad4-96f8-482a-8f67-3c800a902ae1",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1e3a7777-8a4b-4e4d-a3e1-7f46e1b50891",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "76fa6e08-60ab-4571-9fc1-3cab36afc12f",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "f84415ee-28e6-4366-87ac-6103519d4784",
+      "comment": "",
+      "command": "click",
+      "target": "css=.seq-02 img",
+      "targets": [
+        ["css=.seq-02 img", "css:finder"],
+        ["xpath=//img[@alt='LOGIN']", "xpath:img"],
+        ["xpath=//li[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1ab42f7c-63f6-43ac-a1e3-7b67a7bd861e",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "6bed6c63-dc30-493c-a05d-60c9fd8750d0",
+      "comment": "",
+      "command": "click",
+      "target": "id=str_user",
+      "targets": [
+        ["id=str_user", "id"],
+        ["css=#str_user", "css:finder"],
+        ["xpath=//input[@id='str_user']", "xpath:attributes"],
+        ["xpath=//div[@id='mid_container']/div[2]/div/div/div/div[2]/div[2]/div/ul/li[2]/p/input", "xpath:idRelative"],
+        ["xpath=//p/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "89460cef-8e77-49cf-b6ad-97e954d89961",
+      "comment": "",
+      "command": "type",
+      "target": "id=str_user",
+      "targets": [
+        ["id=str_user", "id"],
+        ["css=#str_user", "css:finder"],
+        ["xpath=//input[@id='str_user']", "xpath:attributes"],
+        ["xpath=//div[@id='mid_container']/div[2]/div/div/div/div[2]/div[2]/div/ul/li[2]/p/input", "xpath:idRelative"],
+        ["xpath=//p/input", "xpath:position"]
+      ],
+      "value": "testtest"
+    }, {
+      "id": "a1aabc8f-96cf-4698-95a4-a56cfe9963fa",
+      "comment": "",
+      "command": "type",
+      "target": "id=str_password",
+      "targets": [
+        ["id=str_password", "id"],
+        ["css=#str_password", "css:finder"],
+        ["xpath=//input[@id='str_password']", "xpath:attributes"],
+        ["xpath=//div[@id='mid_container']/div[2]/div/div/div/div[2]/div[2]/div/ul/li[2]/p[2]/input", "xpath:idRelative"],
+        ["xpath=//p[2]/input", "xpath:position"]
+      ],
+      "value": "11111111"
+    }, {
+      "id": "0bf3bfc0-7c25-4471-bdc9-7d1bcf617608",
+      "comment": "",
+      "command": "click",
+      "target": "css=.unit > a > img",
+      "targets": [
+        ["css=.unit > a > img", "css:finder"],
+        ["xpath=//img[@alt='로그인']", "xpath:img"],
+        ["xpath=//div[@id='mid_container']/div[2]/div/div/div/div[2]/div[2]/div/ul/li[3]/a/img", "xpath:idRelative"],
+        ["xpath=//li[3]/a/img", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win4252",
+      "windowTimeout": 2000
+    }, {
+      "id": "f1c266e4-7af5-476d-8d81-7371cf981291",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win4252}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "809fd4d0-993a-4dfb-bbf0-31bffc3462a3",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "45e50793-d129-4cb4-87b0-4acff2f0d40f",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b01ba149-891b-4f74-8356-a9ca8cd1a74c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=PORTAL",
+      "targets": [
+        ["linkText=PORTAL", "linkText"],
+        ["css=.link0 > ul:nth-child(2) > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'PORTAL')]", "xpath:link"],
+        ["xpath=//div[@id='body']/div[5]/div/ul/li/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://portal.dongduk.ac.kr/']", "xpath:href"],
+        ["xpath=//div[5]/div/ul/li/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'PORTAL')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win9936",
+      "windowTimeout": 2000
+    }, {
+      "id": "d1b31534-4680-4db1-9ebe-69f7c250a08d",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win9936}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ea806de0-326f-4a0c-a113-b9e765fd8a3f",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=1",
+      "targets": [
+        ["index=1"]
+      ],
+      "value": ""
+    }, {
+      "id": "2354e1c4-dc53-4e29-8577-f6cd863e80fb",
+      "comment": "",
+      "command": "click",
+      "target": "id=ssousername1",
+      "targets": [
+        ["id=ssousername1", "id"],
+        ["name=ssousername1", "name"],
+        ["css=#ssousername1", "css:finder"],
+        ["xpath=//input[@id='ssousername1']", "xpath:attributes"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9959fae5-1dc6-4c7d-aaaa-fcad700581b6",
+      "comment": "",
+      "command": "type",
+      "target": "id=ssousername1",
+      "targets": [
+        ["id=ssousername1", "id"],
+        ["name=ssousername1", "name"],
+        ["css=#ssousername1", "css:finder"],
+        ["xpath=//input[@id='ssousername1']", "xpath:attributes"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": "testtest"
+    }, {
+      "id": "1f386052-3a9c-4807-bf91-606637af7ed6",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//tr[2]/td[2]/input", "xpath:position"]
+      ],
+      "value": "11111111"
+    }, {
+      "id": "ac0abbaa-2b4d-47a3-8799-5175a027cb7c",
+      "comment": "",
+      "command": "click",
+      "target": "name=login",
+      "targets": [
+        ["name=login", "name"],
+        ["css=#logintab_1 img", "css:finder"],
+        ["xpath=//img[@name='login']", "xpath:attributes"],
+        ["xpath=//td[@id='logintab_1']/a/img", "xpath:idRelative"],
+        ["xpath=//a/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "5a3b33bd-dbc2-4b4f-b1e7-cd3531302df9",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["0c87d4cd-9243-44eb-8b73-cc11f07a18ed"]
+  }],
+  "urls": ["https://www.dongduk.ac.kr/"],
+  "plugins": []
+}
