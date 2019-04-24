@@ -1,0 +1,175 @@
+{
+  "id": "6f30a26e-ef6f-4d6b-adb9-cb863e92c40b",
+  "version": "2.0",
+  "name": "www.kyonggi.ac.kr",
+  "url": "http://www.kyonggi.ac.kr",
+  "tests": [{
+    "id": "7dff4155-caf2-4738-9b92-f1e1b0d6c31e",
+    "name": "www.kyonggi.ac.kr",
+    "commands": [{
+      "id": "cf06159e-cd2f-4a2f-aec7-a28e31fbdb56",
+      "comment": "",
+      "command": "open",
+      "target": "/KyonggiUp.kgu",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a049d28f-3337-4016-8223-c92cba05d882",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4800c73a-79ae-407e-bfe5-2408001afc41",
+      "comment": "",
+      "command": "click",
+      "target": "id=chkbox2",
+      "targets": [
+        ["id=chkbox2", "id"],
+        ["css=#chkbox2", "css:finder"],
+        ["xpath=//input[@id='chkbox2']", "xpath:attributes"],
+        ["xpath=//div[@id='divpopup2']/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "893be2df-36b6-4657-b34f-83fee7ad7967",
+      "comment": "",
+      "command": "click",
+      "target": "id=chkbox",
+      "targets": [
+        ["id=chkbox", "id"],
+        ["name=chkbox", "name"],
+        ["css=#chkbox", "css:finder"],
+        ["xpath=//input[@id='chkbox']", "xpath:attributes"],
+        ["xpath=//div[@id='divpopup']/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "00a00bd6-ff96-47b0-b0e5-17caa1e42363",
+      "comment": "",
+      "command": "click",
+      "target": "css=#divpopup span",
+      "targets": [
+        ["css=#divpopup span", "css:finder"],
+        ["xpath=//div[@id='divpopup']/form/div/div[2]/a/span", "xpath:idRelative"],
+        ["xpath=//span", "xpath:position"],
+        ["xpath=//span[contains(.,'[닫기]')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b46bc554-a7e4-4009-9719-27d5e253c4a4",
+      "comment": "",
+      "command": "click",
+      "target": "css=#divpopup2 span",
+      "targets": [
+        ["css=#divpopup2 span", "css:finder"],
+        ["xpath=//div[@id='divpopup2']/form/div/div[2]/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div/div[2]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7f7d153f-9ea6-4c57-b08f-3694da926bc1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=로그인",
+      "targets": [
+        ["linkText=로그인", "linkText"],
+        ["css=.gnb li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'로그인')]", "xpath:link"],
+        ["xpath=//div[@id='header']/div/div[6]/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.kyonggi.ac.kr/HSSOLogin.kgu')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'로그인')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d614d70d-d39e-4ce5-9ea2-b68e55b6ef56",
+      "comment": "",
+      "command": "click",
+      "target": "id=idida",
+      "targets": [
+        ["id=idida", "id"],
+        ["name=id", "name"],
+        ["css=#idida", "css:finder"],
+        ["xpath=//input[@id='idida']", "xpath:attributes"],
+        ["xpath=//form[@id='HSSOLogin']/div/div/div/p/input", "xpath:idRelative"],
+        ["xpath=//p/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3f3579c1-5652-48ee-8947-78de35b1e460",
+      "comment": "",
+      "command": "type",
+      "target": "id=idida",
+      "targets": [
+        ["id=idida", "id"],
+        ["name=id", "name"],
+        ["css=#idida", "css:finder"],
+        ["xpath=//input[@id='idida']", "xpath:attributes"],
+        ["xpath=//form[@id='HSSOLogin']/div/div/div/p/input", "xpath:idRelative"],
+        ["xpath=//p/input", "xpath:position"]
+      ],
+      "value": "testtest"
+    }, {
+      "id": "161a9ba3-55ac-4e87-9894-4931130ca364",
+      "comment": "",
+      "command": "click",
+      "target": "id=passwd",
+      "targets": [
+        ["id=passwd", "id"],
+        ["name=passwd", "name"],
+        ["css=#passwd", "css:finder"],
+        ["xpath=//input[@id='passwd']", "xpath:attributes"],
+        ["xpath=//form[@id='HSSOLogin']/div/div/div/p[2]/input", "xpath:idRelative"],
+        ["xpath=//p[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f8902ae2-12f7-4a62-9cf3-a1f8cec7587b",
+      "comment": "",
+      "command": "type",
+      "target": "id=passwd",
+      "targets": [
+        ["id=passwd", "id"],
+        ["name=passwd", "name"],
+        ["css=#passwd", "css:finder"],
+        ["xpath=//input[@id='passwd']", "xpath:attributes"],
+        ["xpath=//form[@id='HSSOLogin']/div/div/div/p[2]/input", "xpath:idRelative"],
+        ["xpath=//p[2]/input", "xpath:position"]
+      ],
+      "value": "11111111"
+    }, {
+      "id": "993a8038-90d5-4d0a-85ba-25a185a9ceca",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(1)",
+      "targets": [
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=(//input[@type='image'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='HSSOLogin']/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d51a035a-d64f-43a0-b6cf-b5b105c7ee9c",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "e935ef97-ac32-48d2-b1fb-eaad97cbdd16",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["7dff4155-caf2-4738-9b92-f1e1b0d6c31e"]
+  }],
+  "urls": ["http://www.kyonggi.ac.kr/"],
+  "plugins": []
+}

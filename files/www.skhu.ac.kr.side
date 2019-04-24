@@ -1,0 +1,124 @@
+{
+  "id": "54478f7b-9e9c-4e23-a2ae-abd486f64128",
+  "version": "2.0",
+  "name": "www.skhu.ac.kr",
+  "url": "http://www.skhu.ac.kr",
+  "tests": [{
+    "id": "f44599bf-b886-453f-8c40-155620fa5537",
+    "name": "www.skhu.ac.kr",
+    "commands": [{
+      "id": "c9e49163-ebfa-46b5-9e96-068f7f31dfb1",
+      "comment": "",
+      "command": "open",
+      "target": "/main.aspx",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "febea92e-f706-473b-96cc-7ca9a8a7ddb7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3381ec16-f6fb-44cf-ac48-850472f3a012",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col1 > li:nth-child(1) img",
+      "targets": [
+        ["css=.col1 > li:nth-child(1) img", "css:finder"],
+        ["xpath=//img[@alt='LOGIN']", "xpath:img"],
+        ["xpath=//form[@id='search2']/fieldset/ul/li/a/img", "xpath:idRelative"],
+        ["xpath=//li/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "014781ac-7905-496a-beb3-13d1754a7680",
+      "comment": "",
+      "command": "click",
+      "target": "id=ctl00_ContentPlaceHolder1_txtuserid",
+      "targets": [
+        ["id=ctl00_ContentPlaceHolder1_txtuserid", "id"],
+        ["name=ctl00$ContentPlaceHolder1$txtuserid", "name"],
+        ["css=#ctl00_ContentPlaceHolder1_txtuserid", "css:finder"],
+        ["xpath=//input[@id='ctl00_ContentPlaceHolder1_txtuserid']", "xpath:attributes"],
+        ["xpath=//div[@id='cont']/div/div[2]/div/div[2]/fieldset/ul/li/div/input", "xpath:idRelative"],
+        ["xpath=//li/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c8b4aaa0-fb12-44bd-b7f8-3ad9c371c883",
+      "comment": "",
+      "command": "type",
+      "target": "id=ctl00_ContentPlaceHolder1_txtuserid",
+      "targets": [
+        ["id=ctl00_ContentPlaceHolder1_txtuserid", "id"],
+        ["name=ctl00$ContentPlaceHolder1$txtuserid", "name"],
+        ["css=#ctl00_ContentPlaceHolder1_txtuserid", "css:finder"],
+        ["xpath=//input[@id='ctl00_ContentPlaceHolder1_txtuserid']", "xpath:attributes"],
+        ["xpath=//div[@id='cont']/div/div[2]/div/div[2]/fieldset/ul/li/div/input", "xpath:idRelative"],
+        ["xpath=//li/div/input", "xpath:position"]
+      ],
+      "value": "testtest"
+    }, {
+      "id": "d2403462-73e5-46f9-bc8b-d3778e81957f",
+      "comment": "",
+      "command": "click",
+      "target": "id=ctl00_ContentPlaceHolder1_txtpassword",
+      "targets": [
+        ["id=ctl00_ContentPlaceHolder1_txtpassword", "id"],
+        ["name=ctl00$ContentPlaceHolder1$txtpassword", "name"],
+        ["css=#ctl00_ContentPlaceHolder1_txtpassword", "css:finder"],
+        ["xpath=//input[@id='ctl00_ContentPlaceHolder1_txtpassword']", "xpath:attributes"],
+        ["xpath=//div[@id='cont']/div/div[2]/div/div[2]/fieldset/ul/li[2]/div/input", "xpath:idRelative"],
+        ["xpath=//li[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "80d285e5-155d-4702-905b-e20a46415bba",
+      "comment": "",
+      "command": "type",
+      "target": "id=ctl00_ContentPlaceHolder1_txtpassword",
+      "targets": [
+        ["id=ctl00_ContentPlaceHolder1_txtpassword", "id"],
+        ["name=ctl00$ContentPlaceHolder1$txtpassword", "name"],
+        ["css=#ctl00_ContentPlaceHolder1_txtpassword", "css:finder"],
+        ["xpath=//input[@id='ctl00_ContentPlaceHolder1_txtpassword']", "xpath:attributes"],
+        ["xpath=//div[@id='cont']/div/div[2]/div/div[2]/fieldset/ul/li[2]/div/input", "xpath:idRelative"],
+        ["xpath=//li[2]/div/input", "xpath:position"]
+      ],
+      "value": "11111111"
+    }, {
+      "id": "7f881e14-c387-45b5-b63d-575bf80082d6",
+      "comment": "",
+      "command": "click",
+      "target": "id=ctl00_ContentPlaceHolder1_ibtnLogin",
+      "targets": [
+        ["id=ctl00_ContentPlaceHolder1_ibtnLogin", "id"],
+        ["name=ctl00$ContentPlaceHolder1$ibtnLogin", "name"],
+        ["css=#ctl00_ContentPlaceHolder1_ibtnLogin", "css:finder"],
+        ["xpath=//input[@id='ctl00_ContentPlaceHolder1_ibtnLogin']", "xpath:attributes"],
+        ["xpath=//div[@id='cont']/div/div[2]/div/div[2]/fieldset/input", "xpath:idRelative"],
+        ["xpath=//div[2]/fieldset/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "af5dfd3d-dfc6-4525-98bd-7e0cc17b27ee",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "c4552d83-6210-4d92-a675-99dc9eac7316",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["f44599bf-b886-453f-8c40-155620fa5537"]
+  }],
+  "urls": ["http://www.skhu.ac.kr/"],
+  "plugins": []
+}

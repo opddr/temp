@@ -1,0 +1,598 @@
+{
+  "id": "a02a75df-1f56-42d3-ad61-885367cd348e",
+  "version": "2.0",
+  "name": "www.konkuk.ac.kr",
+  "url": "http://www.konkuk.ac.kr",
+  "tests": [{
+    "id": "2a850de9-d6f8-47c3-a463-259a117d3cf5",
+    "name": "www.konkuk.ac.kr",
+    "commands": [{
+      "id": "1625d42b-7c5e-4ef0-81a8-6654a87807ad",
+      "comment": "",
+      "command": "open",
+      "target": "/do/Index.do",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "63139abe-326b-433f-9d9f-249637e4e8f4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f143942a-53d6-4311-a4a6-926c06e8ce2b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=KU메일",
+      "targets": [
+        ["linkText=KU메일", "linkText"],
+        ["css=.util > li:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'KU메일')]", "xpath:link"],
+        ["xpath=//div[@id='sub_top_area']/div[3]/div/div/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://kumail.konkuk.ac.kr/']", "xpath:href"],
+        ["xpath=//div[3]/div/div/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'KU메일')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win5329",
+      "windowTimeout": 2000
+    }, {
+      "id": "90b744e5-aa52-4a5f-a127-0cb1fbd0f7d8",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c54c7864-a6a4-4654-95d5-db98e539679f",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win5329}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "405e7edb-e51c-400f-95bb-918dfd1d46c3",
+      "comment": "",
+      "command": "click",
+      "target": "id=ContentPlaceHolder1_UsernameTextBox",
+      "targets": [
+        ["id=ContentPlaceHolder1_UsernameTextBox", "id"],
+        ["name=ctl00$ContentPlaceHolder1$UsernameTextBox", "name"],
+        ["css=#ContentPlaceHolder1_UsernameTextBox", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_UsernameTextBox']", "xpath:attributes"],
+        ["xpath=//form[@id='MainForm']/div[3]/div/div/div[2]/div/div/p/input", "xpath:idRelative"],
+        ["xpath=//p/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7e9fa10c-aba4-4601-991d-3e9a168d3d8f",
+      "comment": "",
+      "command": "type",
+      "target": "id=ContentPlaceHolder1_UsernameTextBox",
+      "targets": [
+        ["id=ContentPlaceHolder1_UsernameTextBox", "id"],
+        ["name=ctl00$ContentPlaceHolder1$UsernameTextBox", "name"],
+        ["css=#ContentPlaceHolder1_UsernameTextBox", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_UsernameTextBox']", "xpath:attributes"],
+        ["xpath=//form[@id='MainForm']/div[3]/div/div/div[2]/div/div/p/input", "xpath:idRelative"],
+        ["xpath=//p/input", "xpath:position"]
+      ],
+      "value": "test@test.com"
+    }, {
+      "id": "5c93b50e-adf7-49ad-b5c6-4bf7c67d25cf",
+      "comment": "",
+      "command": "type",
+      "target": "id=ContentPlaceHolder1_PasswordTextBox",
+      "targets": [
+        ["id=ContentPlaceHolder1_PasswordTextBox", "id"],
+        ["name=ctl00$ContentPlaceHolder1$PasswordTextBox", "name"],
+        ["css=#ContentPlaceHolder1_PasswordTextBox", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_PasswordTextBox']", "xpath:attributes"],
+        ["xpath=//form[@id='MainForm']/div[3]/div/div/div[2]/div/div/p[2]/input", "xpath:idRelative"],
+        ["xpath=//p[2]/input", "xpath:position"]
+      ],
+      "value": "11111111"
+    }, {
+      "id": "71f01044-a864-4909-8028-eb4ce13a6f24",
+      "comment": "",
+      "command": "click",
+      "target": "id=ContentPlaceHolder1_SubmitButton",
+      "targets": [
+        ["id=ContentPlaceHolder1_SubmitButton", "id"],
+        ["name=ctl00$ContentPlaceHolder1$SubmitButton", "name"],
+        ["css=#ContentPlaceHolder1_SubmitButton", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_SubmitButton']", "xpath:attributes"],
+        ["xpath=//form[@id='MainForm']/div[3]/div/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cebd9079-3bf8-4024-8851-1e0de4148e58",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "87b8b809-5002-4202-a669-06e6fd14ec67",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn_top:nth-child(3) > img",
+      "targets": [
+        ["css=.btn_top:nth-child(3) > img", "css:finder"],
+        ["xpath=//img[@alt='GLOCAL 캠퍼스']", "xpath:img"],
+        ["xpath=//div[@id='sub_top_area']/div[3]/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/a/img", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win7027",
+      "windowTimeout": 2000
+    }, {
+      "id": "0b1516b2-3d80-4f8f-b6ed-834e8bbe3dc3",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win7027}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "50e680ae-66f9-4f46-b84e-51f68e83832d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sysList > li:nth-child(1) span",
+      "targets": [
+        ["css=.sysList > li:nth-child(1) span", "css:finder"],
+        ["xpath=//div[@id='global_util']/div/ul/li/a/span", "xpath:idRelative"],
+        ["xpath=//span", "xpath:position"],
+        ["xpath=//span[contains(.,'LOGIN')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win2816",
+      "windowTimeout": 2000
+    }, {
+      "id": "f29951cc-6be0-403e-9af0-b87409354c2b",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win2816}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "87e83391-8d6f-4e8e-bc10-5a7deffc3c51",
+      "comment": "",
+      "command": "click",
+      "target": "id=userId",
+      "targets": [
+        ["id=userId", "id"],
+        ["name=userId", "name"],
+        ["css=#userId", "css:finder"],
+        ["xpath=//input[@id='userId']", "xpath:attributes"],
+        ["xpath=//div[@id='login-popup']/div[2]/form/div/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5c7a14be-1672-45d0-9f3c-8d2c83fd1dae",
+      "comment": "",
+      "command": "type",
+      "target": "id=userId",
+      "targets": [
+        ["id=userId", "id"],
+        ["name=userId", "name"],
+        ["css=#userId", "css:finder"],
+        ["xpath=//input[@id='userId']", "xpath:attributes"],
+        ["xpath=//div[@id='login-popup']/div[2]/form/div/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": "testtest"
+    }, {
+      "id": "4b6d2f22-069f-405b-8ec5-58ff862641d2",
+      "comment": "",
+      "command": "click",
+      "target": "css=form",
+      "targets": [
+        ["css=form", "css:finder"],
+        ["xpath=//form[@action='https://www.kku.ac.kr/cop/member/memberLogin.do']", "xpath:attributes"],
+        ["xpath=//div[@id='login-popup']/div[2]/form", "xpath:idRelative"],
+        ["xpath=//form", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "576a844a-83ba-4e44-97f9-ca34c3f0cd63",
+      "comment": "",
+      "command": "click",
+      "target": "id=userPw",
+      "targets": [
+        ["id=userPw", "id"],
+        ["name=userPw", "name"],
+        ["css=#userPw", "css:finder"],
+        ["xpath=//input[@id='userPw']", "xpath:attributes"],
+        ["xpath=//div[@id='login-popup']/div[2]/form/div/span[2]/input", "xpath:idRelative"],
+        ["xpath=//span[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "48752c3c-b2c4-4178-8d4e-0da03002efd9",
+      "comment": "",
+      "command": "type",
+      "target": "id=userPw",
+      "targets": [
+        ["id=userPw", "id"],
+        ["name=userPw", "name"],
+        ["css=#userPw", "css:finder"],
+        ["xpath=//input[@id='userPw']", "xpath:attributes"],
+        ["xpath=//div[@id='login-popup']/div[2]/form/div/span[2]/input", "xpath:idRelative"],
+        ["xpath=//span[2]/input", "xpath:position"]
+      ],
+      "value": "11111111"
+    }, {
+      "id": "875291d9-b4be-45be-86b6-cbfab57c97fc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-submit > input",
+      "targets": [
+        ["css=.btn-submit > input", "css:finder"],
+        ["xpath=//input[@type='image']", "xpath:attributes"],
+        ["xpath=//div[@id='login-popup']/div[2]/form/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d546fc5-dd65-4c67-90cd-2be7601b443a",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1799104c-2174-446c-93e9-c7ea1a695934",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win7027}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "40588146-f07d-4105-82c8-9fc8cb891233",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=교직원포탈",
+      "targets": [
+        ["linkText=교직원포탈", "linkText"],
+        ["css=.mobileHidden:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[@onclick=\"ga('send', 'event', '교직원포탈 Link', '교직원포탈');\"]", "xpath:attributes"],
+        ["xpath=//div[@id='global_util']/div/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://portal.kku.ac.kr')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'교직원포탈')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5e62b36e-fc23-4caa-9d17-0df222212bd8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mobileHidden:nth-child(3) span",
+      "targets": [
+        ["css=.mobileHidden:nth-child(3) span", "css:finder"],
+        ["xpath=//div[@id='global_util']/div/ul/li[3]/a/span", "xpath:idRelative"],
+        ["xpath=//li[3]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'학생포탈')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win2263",
+      "windowTimeout": 2000
+    }, {
+      "id": "12d2d13b-cc94-4f31-8c2f-62c19acd5ad2",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win2263}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "18f7a64c-929d-4367-8c82-5e5b81c4c1b8",
+      "comment": "",
+      "command": "click",
+      "target": "id=user_id",
+      "targets": [
+        ["id=user_id", "id"],
+        ["name=user_id", "name"],
+        ["css=#user_id", "css:finder"],
+        ["xpath=//input[@id='user_id']", "xpath:attributes"],
+        ["xpath=//form[@id='fm']/fieldset/ul/li/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "df5db7e5-23dc-47fe-adcb-c9f2c4807511",
+      "comment": "",
+      "command": "type",
+      "target": "id=user_id",
+      "targets": [
+        ["id=user_id", "id"],
+        ["name=user_id", "name"],
+        ["css=#user_id", "css:finder"],
+        ["xpath=//input[@id='user_id']", "xpath:attributes"],
+        ["xpath=//form[@id='fm']/fieldset/ul/li/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "testtest"
+    }, {
+      "id": "aeb6ba47-9091-421a-b8d2-aeb08d2374b4",
+      "comment": "",
+      "command": "click",
+      "target": "id=user_pwd",
+      "targets": [
+        ["id=user_pwd", "id"],
+        ["name=user_pwd", "name"],
+        ["css=#user_pwd", "css:finder"],
+        ["xpath=//input[@id='user_pwd']", "xpath:attributes"],
+        ["xpath=//form[@id='fm']/fieldset/ul/li[2]/input", "xpath:idRelative"],
+        ["xpath=//li[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d3c5dafe-9a33-45f4-8f73-31b5377f66c1",
+      "comment": "",
+      "command": "type",
+      "target": "id=user_pwd",
+      "targets": [
+        ["id=user_pwd", "id"],
+        ["name=user_pwd", "name"],
+        ["css=#user_pwd", "css:finder"],
+        ["xpath=//input[@id='user_pwd']", "xpath:attributes"],
+        ["xpath=//form[@id='fm']/fieldset/ul/li[2]/input", "xpath:idRelative"],
+        ["xpath=//li[2]/input", "xpath:position"]
+      ],
+      "value": "11111111"
+    }, {
+      "id": "02424349-6a94-4f6c-9889-4e03f0834204",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bt_lgn",
+      "targets": [
+        ["css=.bt_lgn", "css:finder"],
+        ["xpath=//input[@value='로그인']", "xpath:attributes"],
+        ["xpath=//form[@id='fm']/fieldset/ul/li[3]/input", "xpath:idRelative"],
+        ["xpath=//li[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "29842766-752c-4e54-a074-02c60a344dab",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2761a6e3-50de-4155-bb74-6e07431c9d57",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win7027}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "504e11f5-3b33-426d-8b87-7889f5b0d52a",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=li:nth-child(8) > a > span",
+      "targets": [
+        ["css=li:nth-child(8) > a > span", "css:finder"],
+        ["xpath=//div[@id='global_util']/div/ul/li[8]/a/span", "xpath:idRelative"],
+        ["xpath=//li[8]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'중원도서관')]", "xpath:innerText"]
+      ],
+      "value": "18.13751220703125,14.799999713897705"
+    }, {
+      "id": "fd0375ec-d933-4c9a-a447-e4b72e800c0f",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=li:nth-child(8) > a > span",
+      "targets": [
+        ["css=li:nth-child(8) > a > span", "css:finder"],
+        ["xpath=//div[@id='global_util']/div/ul/li[8]/a/span", "xpath:idRelative"],
+        ["xpath=//li[8]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'중원도서관')]", "xpath:innerText"]
+      ],
+      "value": "18.13751220703125,14.799999713897705"
+    }, {
+      "id": "ef103a00-27d7-427d-8cab-c337b2ef6714",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=li:nth-child(8) > a > span",
+      "targets": [
+        ["css=li:nth-child(8) > a > span", "css:finder"],
+        ["xpath=//div[@id='global_util']/div/ul/li[8]/a/span", "xpath:idRelative"],
+        ["xpath=//li[8]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'중원도서관')]", "xpath:innerText"]
+      ],
+      "value": "18.13751220703125,14.799999713897705"
+    }, {
+      "id": "9bcfc706-d9ca-4676-accd-56979e5fa548",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(8) > a > span",
+      "targets": [
+        ["css=li:nth-child(8) > a > span", "css:finder"],
+        ["xpath=//div[@id='global_util']/div/ul/li[8]/a/span", "xpath:idRelative"],
+        ["xpath=//li[8]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'중원도서관')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win2415",
+      "windowTimeout": 2000
+    }, {
+      "id": "09deedbe-8519-47e5-a14b-610261751427",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win2415}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5a0fd8d0-17c9-4c19-9d0a-667c5023282c",
+      "comment": "",
+      "command": "click",
+      "target": "css=#goto-login > strong",
+      "targets": [
+        ["css=#goto-login > strong", "css:finder"],
+        ["xpath=//a[@id='goto-login']/strong", "xpath:idRelative"],
+        ["xpath=//strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'LOGIN')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c91f1a00-9737-4ec7-b1cb-6d2d217ad1b8",
+      "comment": "",
+      "command": "click",
+      "target": "id=userid",
+      "targets": [
+        ["id=userid", "id"],
+        ["name=userid", "name"],
+        ["css=#userid", "css:finder"],
+        ["xpath=//input[@id='userid']", "xpath:attributes"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0cf9e9a4-2c7e-48ee-9477-21e82a8d72c5",
+      "comment": "",
+      "command": "type",
+      "target": "id=userid",
+      "targets": [
+        ["id=userid", "id"],
+        ["name=userid", "name"],
+        ["css=#userid", "css:finder"],
+        ["xpath=//input[@id='userid']", "xpath:attributes"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": "testtest"
+    }, {
+      "id": "20114e10-5cfc-4658-97f4-0ed5d9c34e79",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a62dbe5d-1e98-4fc8-89ae-1c6a5960e63b",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form/div[2]/input", "xpath:position"]
+      ],
+      "value": "11111111"
+    }, {
+      "id": "1a2834d0-b408-4942-8384-991b6e72c5ea",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-block:nth-child(1)",
+      "targets": [
+        ["css=.btn-block:nth-child(1)", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'로그인')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c95429b2-1a3e-4b22-a0b0-476aad89f812",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "로그인ID나 비밀번호가 일치하지 않습니다. [1]회실패",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a96b178d-042b-4f37-8e0e-2325919cee96",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win5329}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b1c186a9-0f34-4e63-a5b7-4050b6658761",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ef16f421-6ea6-4691-9a7c-572483b02260",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win2415}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0039caa3-7cb4-4768-a1ab-4fda80070db0",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f9b09b30-352b-49e5-a71e-3a2f1699f3fb",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win7027}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d8bf2b08-b230-467c-98d0-61fe0766143c",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fbdcc673-5839-41ca-94ab-3960d30af6af",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${undefined}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bbe5906d-ae8e-4829-83ed-78bbbf4be6a7",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ab08563e-5abb-4be8-907f-c8fd8f9fb414",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c6099c48-b96a-4b45-8044-65a33606d948",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${undefined}",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "8315c9f2-8b82-4ec2-9374-f7ca8929d300",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["2a850de9-d6f8-47c3-a463-259a117d3cf5"]
+  }],
+  "urls": ["http://www.konkuk.ac.kr/"],
+  "plugins": []
+}

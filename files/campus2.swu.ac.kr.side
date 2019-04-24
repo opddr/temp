@@ -1,0 +1,177 @@
+{
+  "id": "3d67c36d-2744-413c-9adb-8b16c0d6f5b2",
+  "version": "2.0",
+  "name": "campus2.swu.ac.kr",
+  "url": "http://campus2.swu.ac.kr",
+  "tests": [{
+    "id": "36068a6f-6875-414b-a78f-779c3391c6cd",
+    "name": "campus2.swu.ac.kr",
+    "commands": [{
+      "id": "981d5132-4f3e-49a8-8b0a-8223a7b83c44",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0f7d177b-fb15-4ec1-b99e-721c533146f1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "969e19b7-5784-4312-9e10-bf48ec055ff7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=WEB MAIL",
+      "targets": [
+        ["linkText=WEB MAIL", "linkText"],
+        ["css=.user_menu li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'WEB MAIL')]", "xpath:link"],
+        ["xpath=//div[@id='header']/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'WEB MAIL')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "20850cfd-752f-4fae-8370-ee58a978e2be",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=WEB MAIL",
+      "targets": [
+        ["linkText=WEB MAIL", "linkText"],
+        ["css=.user_menu li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'WEB MAIL')]", "xpath:link"],
+        ["xpath=//div[@id='header']/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'WEB MAIL')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "366dbd41-5d93-41b9-8177-156c1bc5ba78",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=HOME",
+      "targets": [
+        ["linkText=HOME", "linkText"],
+        ["css=.user_menu li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'HOME')]", "xpath:link"],
+        ["xpath=//div[@id='header']/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/index.php')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'HOME')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "95175bc2-d023-4bef-99f2-caff3f6c7737",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=SITE MAP",
+      "targets": [
+        ["linkText=SITE MAP", "linkText"],
+        ["css=.user_menu li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'SITE MAP')]", "xpath:link"],
+        ["xpath=//div[@id='header']/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/sub6_1.php')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'SITE MAP')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "eb910890-8da5-4756-8a74-ff62d085232b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=WEB MAIL",
+      "targets": [
+        ["linkText=WEB MAIL", "linkText"],
+        ["css=.user_menu li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'WEB MAIL')]", "xpath:link"],
+        ["xpath=//div[@id='header']/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'WEB MAIL')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d0b485ca-c032-491a-a5e7-ffae5d63f8e4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=WEB MAIL",
+      "targets": [
+        ["linkText=WEB MAIL", "linkText"],
+        ["css=.user_menu li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'WEB MAIL')]", "xpath:link"],
+        ["xpath=//div[@id='header']/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'WEB MAIL')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b25a1d84-8401-40c8-a33a-4391ea1c84f4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=WEB MAIL",
+      "targets": [
+        ["linkText=WEB MAIL", "linkText"],
+        ["css=.user_menu li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'WEB MAIL')]", "xpath:link"],
+        ["xpath=//div[@id='header']/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'WEB MAIL')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fbf024e8-5888-4f2e-a516-4c119166427a",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "linkText=WEB MAIL",
+      "targets": [
+        ["linkText=WEB MAIL", "linkText"],
+        ["css=.user_menu li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'WEB MAIL')]", "xpath:link"],
+        ["xpath=//div[@id='header']/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'WEB MAIL')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a9f8d88d-8c95-4a5c-a151-614a57682f50",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=WEB MAIL",
+      "targets": [
+        ["linkText=WEB MAIL", "linkText"],
+        ["css=.user_menu li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'WEB MAIL')]", "xpath:link"],
+        ["xpath=//div[@id='header']/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'WEB MAIL')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d2d22e16-0880-47fa-b6de-6cee7c59f9de",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "ac179544-601f-48b7-abee-d5d19b666b31",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["36068a6f-6875-414b-a78f-779c3391c6cd"]
+  }],
+  "urls": ["http://campus2.swu.ac.kr/"],
+  "plugins": []
+}

@@ -1,0 +1,287 @@
+{
+  "id": "381a2a70-9152-4191-880c-634f790a4c78",
+  "version": "2.0",
+  "name": "www.kw.ac.kr",
+  "url": "https://www.kw.ac.kr",
+  "tests": [{
+    "id": "b0e304b0-fe68-483a-9ca1-e0a3e31566a5",
+    "name": "www.kw.ac.kr",
+    "commands": [{
+      "id": "34dbeefe-f243-4fd0-89a4-2164be916a9b",
+      "comment": "",
+      "command": "open",
+      "target": "/ko/index.do",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0b4eafd4-9239-4387-9d16-6adbb71accbd",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ff4e84bb-9649-4996-89f2-7c080bf10f01",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=U-CAMPUS",
+      "targets": [
+        ["linkText=U-CAMPUS", "linkText"],
+        ["css=.fr > ul > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'U-CAMPUS')]", "xpath:link"],
+        ["xpath=//header[@id='header-util']/div/div[2]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://info.kw.ac.kr')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'U-CAMPUS')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win8292",
+      "windowTimeout": 2000
+    }, {
+      "id": "e56c31d8-0746-4f18-a5a7-fccce15122ec",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "43d27697-002d-40e2-b8be-3bd919b4cb8e",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win8292}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e0685c1e-72e1-4301-a9b1-ecd7223d6561",
+      "comment": "",
+      "command": "click",
+      "target": "name=member_no",
+      "targets": [
+        ["name=member_no", "name"],
+        ["css=tr:nth-child(2) > td > input", "css:finder"],
+        ["xpath=//input[@name='member_no']", "xpath:attributes"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3fe95e5f-56a7-414b-9303-a2b073170827",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(2) > td:nth-child(1) > table:nth-child(1) > tbody > tr",
+      "targets": [
+        ["css=tr:nth-child(2) > td:nth-child(1) > table:nth-child(1) > tbody > tr", "css:finder"],
+        ["xpath=//td/table/tbody/tr", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "57fb27a8-b68d-4a66-bcac-7df4e98560c6",
+      "comment": "",
+      "command": "type",
+      "target": "name=member_no",
+      "targets": [
+        ["name=member_no", "name"],
+        ["css=tr:nth-child(2) > td > input", "css:finder"],
+        ["xpath=//input[@name='member_no']", "xpath:attributes"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": "testtest"
+    }, {
+      "id": "fa0beeac-07aa-4e68-a21f-de8c53582d2d",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=tr:nth-child(3) > td:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//tr[3]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6fb80ef4-f95b-4637-8e1e-ca8793c1b4c6",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=tr:nth-child(3) > td:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//tr[3]/td[2]/input", "xpath:position"]
+      ],
+      "value": "11111111"
+    }, {
+      "id": "65fced21-7c04-4b79-9d6f-623eddbf22f9",
+      "comment": "",
+      "command": "click",
+      "target": "name=image",
+      "targets": [
+        ["name=image", "name"],
+        ["css=td:nth-child(3) > input", "css:finder"],
+        ["xpath=//input[@name='image']", "xpath:attributes"],
+        ["xpath=//td[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e881e6ac-c92f-4a21-9428-e7f9853e488e",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "164fd8aa-f3c1-41a2-a879-9328f314cf53",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=WEB-MAIL",
+      "targets": [
+        ["linkText=WEB-MAIL", "linkText"],
+        ["css=.fr > ul > li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'WEB-MAIL')]", "xpath:link"],
+        ["xpath=//header[@id='header-util']/div/div[2]/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://wmail.kw.ac.kr']", "xpath:href"],
+        ["xpath=//div[2]/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'WEB-MAIL')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win640",
+      "windowTimeout": 2000
+    }, {
+      "id": "581a3bf1-1773-40b2-ba72-1f71be08b270",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win640}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4649d830-2a01-4933-aaac-ff00ded504be",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=1",
+      "targets": [
+        ["index=1"]
+      ],
+      "value": ""
+    }, {
+      "id": "4640aa0a-76fa-4278-b03c-314d2baf5619",
+      "comment": "",
+      "command": "click",
+      "target": "id=userid",
+      "targets": [
+        ["id=userid", "id"],
+        ["name=userid", "name"],
+        ["css=#userid", "css:finder"],
+        ["xpath=//input[@id='userid']", "xpath:attributes"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ec3207c4-2836-4002-81a3-29d9895f7990",
+      "comment": "",
+      "command": "type",
+      "target": "id=userid",
+      "targets": [
+        ["id=userid", "id"],
+        ["name=userid", "name"],
+        ["css=#userid", "css:finder"],
+        ["xpath=//input[@id='userid']", "xpath:attributes"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": "testtest"
+    }, {
+      "id": "5b3b3508-f85f-4c2a-aa60-bfa844eac5dd",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(1) > td:nth-child(1) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1)",
+      "targets": [
+        ["css=tr:nth-child(1) > td:nth-child(1) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1)", "css:finder"],
+        ["xpath=//td/table/tbody/tr/td/table/tbody/tr[2]/td/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9caab882-b596-411b-a552-aaed17a88228",
+      "comment": "",
+      "command": "type",
+      "target": "id=userpass",
+      "targets": [
+        ["id=userpass", "id"],
+        ["name=userpass", "name"],
+        ["css=#userpass", "css:finder"],
+        ["xpath=//input[@id='userpass']", "xpath:attributes"],
+        ["xpath=//tr[3]/td/table/tbody/tr/td[2]/input", "xpath:position"]
+      ],
+      "value": "11111111"
+    }, {
+      "id": "dc1c0c54-bda7-4863-a8cc-21f83733fa89",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(2) > td > a > img",
+      "targets": [
+        ["css=tr:nth-child(2) > td > a > img", "css:finder"],
+        ["xpath=//img[@onclick='javascript:login();']", "xpath:attributes"],
+        ["xpath=//td[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "09d7b2d3-4690-4ce1-9e6c-3b181d91ddc4",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win8292}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "55094961-2135-4e99-a84c-61f0a4ffe7f8",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fc400cb3-0085-4a74-a479-7b0bf207c14d",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win640}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "18f086d0-1ba2-468e-ae71-b8e63b22d09a",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0b53831a-f5b3-47e0-8d14-9c871c4b8544",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5b06be66-581d-4756-989d-5bad70bd42f5",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f31ff492-958d-4dd1-9994-f2c9919d723e",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${undefined}",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "5f9069ba-4950-4a4b-b787-aaf67ac424f0",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["b0e304b0-fe68-483a-9ca1-e0a3e31566a5"]
+  }],
+  "urls": ["https://www.kw.ac.kr/"],
+  "plugins": []
+}

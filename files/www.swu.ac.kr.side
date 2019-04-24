@@ -1,0 +1,280 @@
+{
+  "id": "fafd5c13-b496-4fb6-9c93-327d8334b25d",
+  "version": "2.0",
+  "name": "www.swu.ac.kr",
+  "url": "http://www.swu.ac.kr",
+  "tests": [{
+    "id": "dba3f1ed-b5f1-43ff-ae7f-9385863547c3",
+    "name": "www.swu.ac.kr",
+    "commands": [{
+      "id": "06ee7cc9-b926-4289-be37-4a934ae5b30a",
+      "comment": "",
+      "command": "open",
+      "target": "/index.do",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f949812e-7b50-4ccb-b4b4-611a48d2c5bb",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "476b1167-8bdc-4718-825c-7ac90edc3472",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=1",
+      "targets": [
+        ["index=1"]
+      ],
+      "value": ""
+    }, {
+      "id": "4c231447-b22d-416d-a06e-7a377e920c9e",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(1)",
+      "targets": [
+        ["css=li:nth-child(1)", "css:finder"],
+        ["xpath=//li", "xpath:position"],
+        ["xpath=//li[contains(.,'LOGIN')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f40be2be-ce27-4970-bc15-64e866b0ee82",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=LOGIN",
+      "targets": [
+        ["linkText=LOGIN", "linkText"],
+        ["css=li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'LOGIN')]", "xpath:link"],
+        ["xpath=//a[@onclick=\"goLoginPage('http://www.swu.ac.kr');return false;\"]", "xpath:attributes"],
+        ["xpath=//a[contains(@href, 'javascript:void(0);')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'LOGIN')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "55b02411-8dbe-41a8-9bde-20895b9719f4",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e93976f-0ae2-419c-8159-f029ff13f1f5",
+      "comment": "",
+      "command": "click",
+      "target": "name=userID",
+      "targets": [
+        ["name=userID", "name"],
+        ["css=.input_id", "css:finder"],
+        ["xpath=//input[@name='userID']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/form/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "72e37bce-2b63-4b35-95ea-469ee94e753e",
+      "comment": "",
+      "command": "type",
+      "target": "name=userID",
+      "targets": [
+        ["name=userID", "name"],
+        ["css=.input_id", "css:finder"],
+        ["xpath=//input[@name='userID']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/form/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "testtest"
+    }, {
+      "id": "0741ee34-15f8-4b8a-b001-45a261e07ddb",
+      "comment": "",
+      "command": "click",
+      "target": "name=userPW",
+      "targets": [
+        ["name=userPW", "name"],
+        ["css=.input_pw", "css:finder"],
+        ["xpath=//input[@name='userPW']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/form/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ef4195b8-3ac5-409c-ba73-443e4a01c31a",
+      "comment": "",
+      "command": "type",
+      "target": "name=userPW",
+      "targets": [
+        ["name=userPW", "name"],
+        ["css=.input_pw", "css:finder"],
+        ["xpath=//input[@name='userPW']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/form/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "11111111"
+    }, {
+      "id": "fd6becb2-89e3-41f6-9dd3-9b5efcc8a524",
+      "comment": "",
+      "command": "click",
+      "target": "css=.login > strong",
+      "targets": [
+        ["css=.login > strong", "css:finder"],
+        ["xpath=//div[@id='main']/form/div/div/div/button/strong", "xpath:idRelative"],
+        ["xpath=//button/strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'로그인')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c00236d4-efcd-4138-9a53-192bd8d15733",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=1",
+      "targets": [
+        ["index=1"]
+      ],
+      "value": ""
+    }, {
+      "id": "41abb04c-8685-4956-8f72-b71a40a3845c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=WEBMAIL",
+      "targets": [
+        ["linkText=WEBMAIL", "linkText"],
+        ["css=li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'WEBMAIL')]", "xpath:link"],
+        ["xpath=//a[@href='http://mail.swu.ac.kr/']", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'WEBMAIL')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win3334",
+      "windowTimeout": 2000
+    }, {
+      "id": "25996130-2645-440f-8223-f5ddfef32238",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "daa77467-0c22-4a73-b415-ea73b3265679",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win3334}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6f7ee6dd-137d-4cb5-aa1f-e7f046376c11",
+      "comment": "",
+      "command": "click",
+      "target": "id=cid",
+      "targets": [
+        ["id=cid", "id"],
+        ["name=cid", "name"],
+        ["css=#cid", "css:finder"],
+        ["xpath=//input[@id='cid']", "xpath:attributes"],
+        ["xpath=//form[@id='frmlogin']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "22479543-1816-478f-b4dd-b13816ebca5a",
+      "comment": "",
+      "command": "type",
+      "target": "id=cid",
+      "targets": [
+        ["id=cid", "id"],
+        ["name=cid", "name"],
+        ["css=#cid", "css:finder"],
+        ["xpath=//input[@id='cid']", "xpath:attributes"],
+        ["xpath=//form[@id='frmlogin']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "testtest"
+    }, {
+      "id": "2e19a403-241c-41c0-b057-b0d97f76dd5a",
+      "comment": "",
+      "command": "click",
+      "target": "id=cpw",
+      "targets": [
+        ["id=cpw", "id"],
+        ["name=cpw", "name"],
+        ["css=#cpw", "css:finder"],
+        ["xpath=//input[@id='cpw']", "xpath:attributes"],
+        ["xpath=//form[@id='frmlogin']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c4fe5d8b-5b62-4284-b569-acd130b4e0d3",
+      "comment": "",
+      "command": "type",
+      "target": "id=cpw",
+      "targets": [
+        ["id=cpw", "id"],
+        ["name=cpw", "name"],
+        ["css=#cpw", "css:finder"],
+        ["xpath=//input[@id='cpw']", "xpath:attributes"],
+        ["xpath=//form[@id='frmlogin']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "11111111"
+    }, {
+      "id": "52f83c3c-ea5c-4234-bb36-6703a7efbb4c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mb-auth-login-button",
+      "targets": [
+        ["css=.mb-auth-login-button", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='frmlogin']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'로그인')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5e0186cd-27f5-49ae-ae89-5295fb0b0ee7",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d8d1f143-07a2-4176-80d2-bd299f7399a7",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7f6b9b20-51bb-4f97-b02f-abe43aa4d254",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "37db5168-e538-4bb9-a09a-76f73cdc5b61",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${undefined}",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "037e5856-1fb6-4000-a6d3-eb177b2a8181",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["dba3f1ed-b5f1-43ff-ae7f-9385863547c3"]
+  }],
+  "urls": ["http://www.swu.ac.kr/"],
+  "plugins": []
+}
