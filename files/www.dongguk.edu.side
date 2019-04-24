@@ -1,0 +1,637 @@
+{
+  "id": "63158bfc-d1d4-487a-b4a9-69a4792d58f2",
+  "version": "2.0",
+  "name": "dku",
+  "url": "http://www.dongguk.edu",
+  "tests": [{
+    "id": "065afe75-d89d-4a25-bd57-5bdf44366ab3",
+    "name": "dku",
+    "commands": [{
+      "id": "abfa6266-3245-42da-9142-46f47224e1b5",
+      "comment": "",
+      "command": "open",
+      "target": "/mbs/kr/index.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "26ddf27c-567c-44d4-8ac6-6fae07c8235d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "423b185a-a3c6-4734-a26b-4c7ae90c92b5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=LOGIN",
+      "targets": [
+        ["linkText=LOGIN", "linkText"],
+        ["css=.login > a", "css:finder"],
+        ["xpath=//a[contains(text(),'LOGIN')]", "xpath:link"],
+        ["xpath=//div[@id='utilList']/div/div[2]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.dongguk.edu/user/login.jsp')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'LOGIN')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e36fb5b9-1056-4732-affa-7c298ede4d44",
+      "comment": "",
+      "command": "click",
+      "target": "name=loginid",
+      "targets": [
+        ["name=loginid", "name"],
+        ["css=#textInputDiv1 > input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='loginid']", "xpath:attributes"],
+        ["xpath=//div[@id='textInputDiv1']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d0bedd37-e912-41ec-955d-b5688736a44e",
+      "comment": "",
+      "command": "type",
+      "target": "name=loginid",
+      "targets": [
+        ["name=loginid", "name"],
+        ["css=#textInputDiv1 > input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='loginid']", "xpath:attributes"],
+        ["xpath=//div[@id='textInputDiv1']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "test"
+    }, {
+      "id": "b008a164-7c81-4c75-8d18-c61a3e2ebafa",
+      "comment": "",
+      "command": "type",
+      "target": "name=loginpw",
+      "targets": [
+        ["name=loginpw", "name"],
+        ["css=#textInputDiv1 > input:nth-child(3)", "css:finder"],
+        ["xpath=//input[@name='loginpw']", "xpath:attributes"],
+        ["xpath=//div[@id='textInputDiv1']/input[2]", "xpath:idRelative"],
+        ["xpath=//div/input[2]", "xpath:position"]
+      ],
+      "value": "1111"
+    }, {
+      "id": "a16514ac-7ece-4175-8e67-1ab2657c1057",
+      "comment": "",
+      "command": "click",
+      "target": "name=loginid",
+      "targets": [
+        ["name=loginid", "name"],
+        ["css=#textInputDiv1 > input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='loginid']", "xpath:attributes"],
+        ["xpath=//div[@id='textInputDiv1']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1cee6ab3-5cfa-4874-b013-a3d9614e1f22",
+      "comment": "",
+      "command": "type",
+      "target": "name=loginid",
+      "targets": [
+        ["name=loginid", "name"],
+        ["css=#textInputDiv1 > input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='loginid']", "xpath:attributes"],
+        ["xpath=//div[@id='textInputDiv1']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "testtest"
+    }, {
+      "id": "ed21f16d-6469-4309-80ba-cfc4860e8555",
+      "comment": "",
+      "command": "click",
+      "target": "name=loginpw",
+      "targets": [
+        ["name=loginpw", "name"],
+        ["css=#textInputDiv1 > input:nth-child(3)", "css:finder"],
+        ["xpath=//input[@name='loginpw']", "xpath:attributes"],
+        ["xpath=//div[@id='textInputDiv1']/input[2]", "xpath:idRelative"],
+        ["xpath=//div/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a83f3cbb-0aea-4093-b52f-a744aeaa7679",
+      "comment": "",
+      "command": "type",
+      "target": "name=loginpw",
+      "targets": [
+        ["name=loginpw", "name"],
+        ["css=#textInputDiv1 > input:nth-child(3)", "css:finder"],
+        ["xpath=//input[@name='loginpw']", "xpath:attributes"],
+        ["xpath=//div[@id='textInputDiv1']/input[2]", "xpath:idRelative"],
+        ["xpath=//div/input[2]", "xpath:position"]
+      ],
+      "value": "11111111"
+    }, {
+      "id": "b02c5742-1cd2-4874-8469-150d833c1532",
+      "comment": "",
+      "command": "click",
+      "target": "css=.login:nth-child(3) .login_btn > input",
+      "targets": [
+        ["css=.login:nth-child(3) .login_btn > input", "css:finder"],
+        ["xpath=//input[@type='image']", "xpath:attributes"],
+        ["xpath=//div[@id='login_center']/div/form/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d95c5a04-6353-4c65-b3c7-ef13e15f86d3",
+      "comment": "",
+      "command": "click",
+      "target": "css=#textInputDiv3\\  > input:nth-child(1)",
+      "targets": [
+        ["css=#textInputDiv3\\  > input:nth-child(1)", "css:finder"],
+        ["xpath=(//input[@name='loginid'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='textInputDiv3 ']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b62c7eee-3067-41f4-a867-02f15b8247ad",
+      "comment": "",
+      "command": "type",
+      "target": "css=#textInputDiv3\\  > input:nth-child(1)",
+      "targets": [
+        ["css=#textInputDiv3\\  > input:nth-child(1)", "css:finder"],
+        ["xpath=(//input[@name='loginid'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='textInputDiv3 ']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div/input", "xpath:position"]
+      ],
+      "value": "test@test.net"
+    }, {
+      "id": "74505665-0cf1-4139-8205-1c2eea115eec",
+      "comment": "",
+      "command": "type",
+      "target": "css=#textInputDiv3\\  > input:nth-child(3)",
+      "targets": [
+        ["css=#textInputDiv3\\  > input:nth-child(3)", "css:finder"],
+        ["xpath=(//input[@name='loginpw'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='textInputDiv3 ']/input[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div/input[2]", "xpath:position"]
+      ],
+      "value": "11111111"
+    }, {
+      "id": "f9366b3f-ca7a-4c9b-a76a-04202f5a9284",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(4)",
+      "targets": [
+        ["css=p:nth-child(4)", "css:finder"],
+        ["xpath=//div[@id='textInputDiv3 ']/p", "xpath:idRelative"],
+        ["xpath=//form/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'동의합니다.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "82a35f6c-c1a8-4211-b13f-60a0ebb31e49",
+      "comment": "",
+      "command": "click",
+      "target": "name=checkbox",
+      "targets": [
+        ["name=checkbox", "name"],
+        ["css=p:nth-child(4) > input", "css:finder"],
+        ["xpath=//input[@name='checkbox']", "xpath:attributes"],
+        ["xpath=//div[@id='textInputDiv3 ']/p/input", "xpath:idRelative"],
+        ["xpath=//div/p/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0f7a19b1-09a4-402c-95ea-0f2c44055c1e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.login:nth-child(15)",
+      "targets": [
+        ["css=.login:nth-child(15)", "css:finder"],
+        ["xpath=//div[@id='login_center']/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fe908cec-107e-4b6b-b311-5577a1e19dfc",
+      "comment": "",
+      "command": "type",
+      "target": "css=#textInputDiv3\\  > input:nth-child(3)",
+      "targets": [
+        ["css=#textInputDiv3\\  > input:nth-child(3)", "css:finder"],
+        ["xpath=(//input[@name='loginpw'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='textInputDiv3 ']/input[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div/input[2]", "xpath:position"]
+      ],
+      "value": "testtest"
+    }, {
+      "id": "779c3eb0-2bcd-4cb7-9a4f-01aadc59e364",
+      "comment": "",
+      "command": "click",
+      "target": "css=.login:nth-child(15) .login_btn > input",
+      "targets": [
+        ["css=.login:nth-child(15) .login_btn > input", "css:finder"],
+        ["xpath=(//input[@type='image'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='login_center']/div[2]/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "82e7d683-c833-41e8-8d21-f1c4bbf1c2c9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=LOGOUT",
+      "targets": [
+        ["linkText=LOGOUT", "linkText"],
+        ["css=.loginWrap li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'LOGOUT')]", "xpath:link"],
+        ["xpath=//div[@id='utilList']/div/div[2]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.dongguk.edu/user/logout.jsp')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'LOGOUT')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7d5c0c0e-3f7e-45e7-a2d6-f2c69476808b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Next",
+      "targets": [
+        ["linkText=Next", "linkText"],
+        ["css=.bx-controls:nth-child(1) .bx-next", "css:finder"],
+        ["xpath=(//a[contains(text(),'Next')])[3]", "xpath:link"],
+        ["xpath=//div[@id='bannerZone']/div/div/div/div[2]/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '')])[437]", "xpath:href"],
+        ["xpath=//div[3]/div/div/div/div/div[2]/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4a228150-cbac-4da8-82b6-6510bd4faea4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.q_04",
+      "targets": [
+        ["css=.q_04", "css:finder"],
+        ["xpath=//div[@id='container']/div[3]/div[2]/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/mbs/kr/subview.jsp?id=kr_010708000000')])[2]", "xpath:href"],
+        ["xpath=//div[3]/div[2]/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "59c99157-841f-48b9-93e4-00c37c02256c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=GROUPWARE",
+      "targets": [
+        ["linkText=GROUPWARE", "linkText"],
+        ["css=.loginWrap li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'GROUPWARE')]", "xpath:link"],
+        ["xpath=//div[@id='utilList']/div/div[2]/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://gw.dongguk.edu/Login.aspx')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'GROUPWARE')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win6219",
+      "windowTimeout": 2000
+    }, {
+      "id": "6652f000-f0b3-43d1-9051-cd5d2cd24d99",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "46ad464a-cb6a-4348-8831-f5e42fb9fda3",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win6219}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f8aac880-cd82-421a-836d-c3721fa3bbf9",
+      "comment": "",
+      "command": "click",
+      "target": "id=TextUserID",
+      "targets": [
+        ["id=TextUserID", "id"],
+        ["name=TextUserID", "name"],
+        ["css=#TextUserID", "css:finder"],
+        ["xpath=//input[@id='TextUserID']", "xpath:attributes"],
+        ["xpath=//form[@id='FormLogin']/p/input", "xpath:idRelative"],
+        ["xpath=//p/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e0bb824c-1c49-4b8d-8e01-eaccc6b6845b",
+      "comment": "",
+      "command": "type",
+      "target": "id=TextUserID",
+      "targets": [
+        ["id=TextUserID", "id"],
+        ["name=TextUserID", "name"],
+        ["css=#TextUserID", "css:finder"],
+        ["xpath=//input[@id='TextUserID']", "xpath:attributes"],
+        ["xpath=//form[@id='FormLogin']/p/input", "xpath:idRelative"],
+        ["xpath=//p/input", "xpath:position"]
+      ],
+      "value": "testtest"
+    }, {
+      "id": "b77b000b-6973-4599-ae43-4eb650e31ac7",
+      "comment": "",
+      "command": "type",
+      "target": "id=TextPassword",
+      "targets": [
+        ["id=TextPassword", "id"],
+        ["name=TextPassword", "name"],
+        ["css=#TextPassword", "css:finder"],
+        ["xpath=//input[@id='TextPassword']", "xpath:attributes"],
+        ["xpath=//form[@id='FormLogin']/p[2]/input", "xpath:idRelative"],
+        ["xpath=//p[2]/input", "xpath:position"]
+      ],
+      "value": "11111111"
+    }, {
+      "id": "c6851b51-51da-4980-b7bc-d8da2c002449",
+      "comment": "",
+      "command": "click",
+      "target": "id=LoginButton",
+      "targets": [
+        ["id=LoginButton", "id"],
+        ["name=LoginButton", "name"],
+        ["css=#LoginButton", "css:finder"],
+        ["xpath=//input[@id='LoginButton']", "xpath:attributes"],
+        ["xpath=//form[@id='FormLogin']/input[9]", "xpath:idRelative"],
+        ["xpath=//input[9]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2f023889-acab-46a2-af67-091d963be724",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "입력하신 아이디와 패스워드에 해당하는 사용자가 없습니다.",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fc007680-ff67-4bfa-a22c-13cd9bcfa0d8",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bb1dc246-b61b-4a01-97ed-054b680c338f",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "670ae134-de25-4f86-8d47-820ae5c71eee",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=PORTAL",
+      "targets": [
+        ["linkText=PORTAL", "linkText"],
+        ["css=.loginWrap li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'PORTAL')]", "xpath:link"],
+        ["xpath=//div[@id='utilList']/div/div[2]/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://portal.dongguk.edu')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'PORTAL')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win6169",
+      "windowTimeout": 2000
+    }, {
+      "id": "09d68442-d7f9-4ac8-a722-6e0c011f6b12",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win6169}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ea36706a-020e-4fd4-a7d1-3bade924b30b",
+      "comment": "",
+      "command": "click",
+      "target": "id=userId",
+      "targets": [
+        ["id=userId", "id"],
+        ["css=#userId", "css:finder"],
+        ["xpath=//input[@id='userId']", "xpath:attributes"],
+        ["xpath=//div[@id='bgS']/div/div/div[3]/p/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bbc13eec-6d75-42d9-a2e9-55f7fa66ce5b",
+      "comment": "",
+      "command": "type",
+      "target": "id=userId",
+      "targets": [
+        ["id=userId", "id"],
+        ["css=#userId", "css:finder"],
+        ["xpath=//input[@id='userId']", "xpath:attributes"],
+        ["xpath=//div[@id='bgS']/div/div/div[3]/p/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "testtest"
+    }, {
+      "id": "3b4b9149-9881-465f-9d02-1a837049fea7",
+      "comment": "",
+      "command": "type",
+      "target": "id=userPwd",
+      "targets": [
+        ["id=userPwd", "id"],
+        ["css=#userPwd", "css:finder"],
+        ["xpath=//input[@id='userPwd']", "xpath:attributes"],
+        ["xpath=//div[@id='bgS']/div/div/div[3]/p/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "11111111"
+    }, {
+      "id": "c3908274-52d0-4ba6-999d-74418c246e65",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=LOGIN",
+      "targets": [
+        ["linkText=LOGIN", "linkText"],
+        ["css=.btn", "css:finder"],
+        ["xpath=//a[contains(text(),'LOGIN')]", "xpath:link"],
+        ["xpath=//div[@id='bgS']/div/div/div[3]/a", "xpath:idRelative"],
+        ["xpath=//div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'LOGIN')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a62ac89f-0845-4a40-9a81-e0ccf84709d1",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "아이디가 존재하지 않습니다.",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ec7390cf-0edd-43d6-8afb-06e0a811c9f8",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d9b66065-5308-4db4-a1fa-44fcb1d5cd5a",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dd310435-aaed-431a-b350-c185eb99af66",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "linkText=WEBMAIL",
+      "targets": [
+        ["linkText=WEBMAIL", "linkText"],
+        ["css=.loginWrap li:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'WEBMAIL')]", "xpath:link"],
+        ["xpath=//div[@id='utilList']/div/div[2]/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://mail.dongguk.edu/')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'WEBMAIL')]", "xpath:innerText"]
+      ],
+      "value": "26.887451171875,6.199999809265137"
+    }, {
+      "id": "757c2b30-aa0c-4b53-bfd8-d4b528215c1a",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "linkText=WEBMAIL",
+      "targets": [
+        ["linkText=WEBMAIL", "linkText"],
+        ["css=.loginWrap li:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'WEBMAIL')]", "xpath:link"],
+        ["xpath=//div[@id='utilList']/div/div[2]/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://mail.dongguk.edu/')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'WEBMAIL')]", "xpath:innerText"]
+      ],
+      "value": "26.887451171875,6.199999809265137"
+    }, {
+      "id": "b301e3b1-d6cc-4291-b772-57bef2a5902b",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "linkText=WEBMAIL",
+      "targets": [
+        ["linkText=WEBMAIL", "linkText"],
+        ["css=.loginWrap li:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'WEBMAIL')]", "xpath:link"],
+        ["xpath=//div[@id='utilList']/div/div[2]/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://mail.dongguk.edu/')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'WEBMAIL')]", "xpath:innerText"]
+      ],
+      "value": "26.887451171875,6.199999809265137"
+    }, {
+      "id": "d343d57a-df49-4950-af1e-1a473c2e2466",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=WEBMAIL",
+      "targets": [
+        ["linkText=WEBMAIL", "linkText"],
+        ["css=.loginWrap li:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'WEBMAIL')]", "xpath:link"],
+        ["xpath=//div[@id='utilList']/div/div[2]/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://mail.dongguk.edu/')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'WEBMAIL')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win3178",
+      "windowTimeout": 2000
+    }, {
+      "id": "be93a81d-2354-4780-9a1c-ce7c5f6edcec",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win3178}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "91eabcfe-2ea3-4919-b9ef-ed5c2ba7bb62",
+      "comment": "",
+      "command": "click",
+      "target": "id=userId",
+      "targets": [
+        ["id=userId", "id"],
+        ["name=userId", "name"],
+        ["css=#userId", "css:finder"],
+        ["xpath=//input[@id='userId']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div[2]/div/div[2]/div[2]/div/div/ul/li/label/input", "xpath:idRelative"],
+        ["xpath=//label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d87f805-27cb-4d3e-a03a-48ca77843dcc",
+      "comment": "",
+      "command": "type",
+      "target": "id=userId",
+      "targets": [
+        ["id=userId", "id"],
+        ["name=userId", "name"],
+        ["css=#userId", "css:finder"],
+        ["xpath=//input[@id='userId']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div[2]/div/div[2]/div[2]/div/div/ul/li/label/input", "xpath:idRelative"],
+        ["xpath=//label/input", "xpath:position"]
+      ],
+      "value": "testtest"
+    }, {
+      "id": "19cae10a-2241-48b2-a77c-80ee0b65c14e",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div[2]/div/div[2]/div[2]/div/div/ul/li[2]/label/input", "xpath:idRelative"],
+        ["xpath=//li[2]/label/input", "xpath:position"]
+      ],
+      "value": "11111111"
+    }, {
+      "id": "1cd4a367-f375-4313-923b-ad7dc0853585",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dk",
+      "targets": [
+        ["css=.dk", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div[2]/div/div[2]/div[2]/div/div/ul/li[3]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'로그인')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f1bc2052-d3b1-48ac-b2ae-8ddfbc1852bd",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "daef5e01-c355-4d56-9824-8f9f5263658d",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "ffb6f428-c379-4b4e-bc7b-9956afd46965",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["065afe75-d89d-4a25-bd57-5bdf44366ab3"]
+  }],
+  "urls": ["http://www.dongguk.edu/"],
+  "plugins": []
+}
