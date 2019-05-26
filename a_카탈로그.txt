@@ -1,0 +1,215 @@
+create_afa.ac.kr.side - 도서관 7번라인에서 error
+
+create_afa.ac.kr.side - 도서관 6번라인에서 error
+
+create_cau.ac.kr.side - 전자출결 12라인에서 불필요하지만 정상동작
+
+create_chongshin.ac.kr.side - 파일이 안열립니다.
+
+create_chugye.ac.kr.side - clear
+
+create_cufs.ac.kr.side - clear
+
+create_cuk.edu.side - main 3번라인에서 오류
+
+create_daejin.ac.kr.side - 파일이 열리지 않습니다.
+
+create_dhu.ac.kr.side - clear
+
+create_dogye.kangwon.ac.kr.side -  clear(wait for element에서 크기 엘리만트가 안보일경우 멈춤)
+
+create_donga.ac.kr.side - clear
+
+create_dongduk.ac.kr.side - clear
+
+create_duksung.ac.kr.side - clear
+
+create_ewha.ac.kr.side - clear
+
+create_hanbat.ac.kr.side - 웹메일 2번라인에서 에러
+
+create_home.sjcu.ac.kr.side - clear
+
+create_htus.ac.kr.side - clear
+
+create_iscu.ac.kr.side - clear
+
+create_jc.woosuk.ac.kr.side - clear
+
+create_kcu.ac.kr.side - click link text 에러
+
+create_kcu.ac.side - 입학지원센터로그인 clic css=icon-current 에러
+
+create_khcu.ac.kr.side - clear
+
+create_kma.ac.kr.side - clear
+
+
+create_knou.ac.kr.side - alert 창 미처리
+
+create_kookmin.ac.kr.side - clear
+
+create_korea.ac.kr.side - 세종캠퍼스 6번라인 에러
+
+create_koreatech.ac.kr.side - clear
+
+create_kornu.ac.kr.side - clear
+
+create_kosin.ac.kr.side - clear
+
+create_ks.ac.kr.side
+
+create_kumoh.ac.kr.side - clear
+
+create_kunsan.ac.kr.side - 모든 test에서 clic css=.bt05 span 에서 에러
+
+create_kwangshin.ac.kr.side - clear
+
+create_marsci.gnu.ac.kr.side - clear
+
+create_medical.gachon.ac.kr.side - clear
+
+create_mju.ac.kr.side - clear
+
+create_mmu.ac.kr.side - clear
+
+create_mokwon.ac.kr.side - clear
+
+create_mtu.ac.kr.side - clear
+
+create_nambu.ac.kr.side - clear
+
+create_new.sungshin.ac.kr.side - 파일이 열리지 않습니다.
+
+create_new.syu.ac.kr.side - clear
+
+create_nuch.ac.kr.side - clear
+
+create_pcu.ac.kr.side - clear
+
+create_puts.ac.kr.side - 포탈 로그인 6번 라인에서 에러
+
+create_scau.ac.kr.side - clear
+
+create_scu.ac.kr.side - clear
+
+create_sdu.ac.kr.side - clear 
+
+create_sejong.ac.kr.side - 파일이 열리지 않습니다. 이하 파일에러
+
+create_seoultech.ac.kr.side - 파일 에러
+
+create_skhu.ac.kr.side - 파일에러
+
+create_skku.edu.side - 이러닝 2번라인에서 에러
+
+create_skuniv.ac.kr.side - clear
+
+create_smu.ac.kr.side - clear
+
+create_snu.ac.kr.side -  파일에러
+
+create_snue.ac.kr.side - 파일 에러
+
+create_smu.ac.kr.side - clear
+
+create_ssu.ac.kr.side - 파일에러
+
+create_stu.ac.kr.side - clear
+
+create_sunmoon.ac.kr.side - 파일에러
+
+create_suwon.ac.kr.side - 마지막에 브라우저가 안닫힘
+
+create_tu.ac.kr.side - 브라우저 안닫힘
+
+create_u1.ac.kr.side - 브라우저 안닫힘
+
+create_ulsan.ac.kr.side - clear
+
+create_unist.ac.kr.side - 파일에러
+
+create_wbusan.knou.ac.kr.side - 파일에러
+
+create_wchungbuk.knou.ac.kr.side - clear
+
+create_wdaegu.knou.ac.kr.side - clear
+
+
+create_wdu.ac.kr.side - clear
+
+create_web.dongguk.ac.kr.side - e-class 2번라인에서 에러
+
+create_wgangwon.knou.ac.kr.side - clear
+
+create_wgyeongnam.knou.ac.kr.side - clear
+
+create_wjeju.knou.ac.kr.side - clear
+
+create_wjeonbuk.knou.ac.kr.side - clear
+
+create_wku.ac.kr.side - 파일에러
+
+create_woosuk.ac.kr.side - 브라우저 안닫힘
+
+create_wsu.ac.kr.side - clear
+
+create_wulsan.knou.ac.kr.side - clear
+
+create_www.acts.ac.kr.side - 도서관 3번라인에서 에러
+
+create_www.anyang.ac.kr.side - clear
+
+create_www.bdu.ac.kr.side - cleaer
+
+create_www.daeshin.ac.kr.side - clear
+
+create_www.dankook.ac.kr.side - 파일에러
+
+create_www.dju.ac.kr.side
+
+create_www.dongguk.edu.side - clear
+
+create_www.hallym.ac.kr.side - clear
+
+create_www.hansei.ac.kr.side - clear
+
+create_www.kw.ac.kr.side - 파일 에러
+
+create_www.kwu.ac.kr.side - 브라우저 안닫힘
+
+create_www.kyonggi.ac.kr.side - 파일에러
+
+create_www.mcu.ac.kr.side - 파일에러
+
+create_www.sungkyul.ac.kr.side - 팝업 안닫힘
+
+create_www.sungshin.ac.kr.side
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
